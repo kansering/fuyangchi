@@ -1,0 +1,85 @@
+<svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg" font-family="Noto Sans TC, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#EEF3ED"/></linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg3)" rx="16"/>
+  <text x="600" y="45" text-anchor="middle" font-size="24" font-weight="bold" fill="#1B6B4A">長照失能等級 vs 每月補助額度</text>
+  <text x="600" y="72" text-anchor="middle" font-size="14" fill="#7A7A7A">照顧及專業服務（一般戶自付16%）｜2026長照3.0標準</text>
+
+  <!-- Y axis labels -->
+  <text x="55" y="120" text-anchor="end" font-size="11" fill="#999">36,000</text>
+  <text x="55" y="180" text-anchor="end" font-size="11" fill="#999">28,000</text>
+  <text x="55" y="240" text-anchor="end" font-size="11" fill="#999">20,000</text>
+  <text x="55" y="300" text-anchor="end" font-size="11" fill="#999">12,000</text>
+  <text x="55" y="360" text-anchor="end" font-size="11" fill="#999">4,000</text>
+  <line x1="65" y1="100" x2="65" y2="380" stroke="#ddd" stroke-width="1"/>
+  <line x1="65" y1="380" x2="1150" y2="380" stroke="#ddd" stroke-width="1"/>
+  <!-- grid -->
+  <line x1="65" y1="120" x2="1150" y2="120" stroke="#eee" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="65" y1="180" x2="1150" y2="180" stroke="#eee" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="65" y1="240" x2="1150" y2="240" stroke="#eee" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="65" y1="300" x2="1150" y2="300" stroke="#eee" stroke-width="1" stroke-dasharray="4"/>
+
+  <!-- Level 1 (no subsidy) -->
+  <g transform="translate(110,0)">
+    <rect x="0" y="365" width="100" height="15" rx="4" fill="#E0E0E0"/>
+    <text x="50" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#999">第1級</text>
+    <text x="50" y="425" text-anchor="middle" font-size="10" fill="#999">不符補助</text>
+  </g>
+
+  <!-- Level 2 -->
+  <g transform="translate(240,0)">
+    <rect x="0" y="297" width="100" height="83" rx="4" fill="#C8E6C9"/>
+    <text x="50" y="340" text-anchor="middle" font-size="13" font-weight="bold" fill="#1B6B4A">10,020</text>
+    <text x="50" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B6B4A">第2級</text>
+    <text x="50" y="425" text-anchor="middle" font-size="10" fill="#7A7A7A">輕度</text>
+  </g>
+
+  <!-- Level 3 -->
+  <g transform="translate(370,0)">
+    <rect x="0" y="258" width="100" height="122" rx="4" fill="#A5D6A7"/>
+    <text x="50" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#1B6B4A">15,460</text>
+    <text x="50" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B6B4A">第3級</text>
+  </g>
+
+  <!-- Level 4 -->
+  <g transform="translate(500,0)">
+    <rect x="0" y="235" width="100" height="145" rx="4" fill="#81C784"/>
+    <text x="50" y="308" text-anchor="middle" font-size="13" font-weight="bold" fill="white">18,580</text>
+    <text x="50" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B6B4A">第4級</text>
+    <text x="50" y="425" text-anchor="middle" font-size="10" fill="#7A7A7A">中度</text>
+  </g>
+
+  <!-- Level 5 -->
+  <g transform="translate(630,0)">
+    <rect x="0" y="195" width="100" height="185" rx="4" fill="#66BB6A"/>
+    <text x="50" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="white">24,100</text>
+    <text x="50" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B6B4A">第5級</text>
+  </g>
+
+  <!-- Level 6 -->
+  <g transform="translate(760,0)">
+    <rect x="0" y="166" width="100" height="214" rx="4" fill="#43A047"/>
+    <text x="50" y="275" text-anchor="middle" font-size="13" font-weight="bold" fill="white">28,070</text>
+    <text x="50" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B6B4A">第6級</text>
+    <text x="50" y="425" text-anchor="middle" font-size="10" fill="#7A7A7A">重度</text>
+  </g>
+
+  <!-- Level 7 -->
+  <g transform="translate(890,0)">
+    <rect x="0" y="137" width="100" height="243" rx="4" fill="#2E7D32"/>
+    <text x="50" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="white">32,090</text>
+    <text x="50" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B6B4A">第7級</text>
+  </g>
+
+  <!-- Level 8 -->
+  <g transform="translate(1020,0)">
+    <rect x="0" y="108" width="100" height="272" rx="4" fill="#1B5E20"/>
+    <text x="50" y="245" text-anchor="middle" font-size="13" font-weight="bold" fill="white">36,180</text>
+    <text x="50" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#E8A838">第8級</text>
+    <text x="50" y="425" text-anchor="middle" font-size="10" fill="#7A7A7A">極重度</text>
+  </g>
+
+  <text x="600" y="460" text-anchor="middle" font-size="12" fill="#999">單位：新台幣元/月 ｜ 以上為照顧及專業服務補助，輔具/交通/喘息另計</text>
+  <text x="600" y="485" text-anchor="middle" font-size="12" fill="#999">資料來源：衛福部長照專區｜圖表製作：富揚琦醫療器材</text>
+</svg>

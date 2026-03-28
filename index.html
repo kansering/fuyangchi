@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>富揚琦醫療器材 | 長照輔具・救護醫材・無障礙改善</title>
+<meta name="description" content="高雄在地20年醫療器材專家。長照3.0輔具補助申請、救護車打造、Spencer擔架床、居家無障礙改善。撥打07-XXX-XXXX免費諮詢。">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #1B6B4A;
+  --primary-light: #2A9D6C;
+  --primary-dark: #0E4A33;
+  --accent: #E8A838;
+  --accent-warm: #D4742C;
+  --bg-cream: #FAF7F2;
+  --bg-sage: #EEF3ED;
+  --bg-warm: #FFF8F0;
+  --text-dark: #1A1A1A;
+  --text-mid: #4A4A4A;
+  --text-light: #7A7A7A;
+  --white: #FFFFFF;
+  --border: #E0DCD5;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,0.12);
+  --radius: 12px;
+  --radius-lg: 20px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background: var(--bg-cream);
+  color: var(--text-dark);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ===== TOP BAR ===== */
+.top-bar {
+  background: var(--primary-dark);
+  color: var(--white);
+  padding: 8px 0;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.top-bar a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.top-bar a:hover { text-decoration: underline; }
+
+/* ===== HEADER ===== */
+header {
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-main {
+  padding: 16px 0;
+}
+.header-main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--text-dark);
+}
+.logo-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: 'Noto Serif TC', serif;
+}
+.logo-text h1 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Noto Serif TC', serif;
+  color: var(--primary-dark);
+  line-height: 1.2;
+}
+.logo-text span {
+  font-size: 11px;
+  color: var(--text-light);
+  letter-spacing: 1px;
+}
+.header-cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.btn-phone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+.btn-phone:hover { background: var(--primary-dark); transform: translateY(-1px); }
+
+/* ===== NAV ===== */
+nav {
+  background: var(--primary);
+  padding: 0;
+}
+nav .container {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  padding: 14px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s;
+  position: relative;
+  letter-spacing: 0.5px;
+}
+nav a:hover, nav a.active {
+  color: white;
+  background: rgba(255,255,255,0.1);
+}
+nav a.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 3px 3px 0 0;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+  padding: 80px 0 60px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(232,168,56,0.15), transparent 70%);
+  border-radius: 50%;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255,255,255,0.05), transparent 70%);
+  border-radius: 50%;
+}
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+.hero-content {
+  max-width: 680px;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.12);
+  padding: 6px 16px;
+  border-radius: 50px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 0.6s ease;
+}
+.hero h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.35;
+  margin-bottom: 16px;
+  animation: fadeInUp 0.6s ease 0.1s both;
+}
+.hero h2 em {
+  font-style: normal;
+  color: var(--accent);
+}
+.hero p {
+  font-size: 17px;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 32px;
+  max-width: 520px;
+  animation: fadeInUp 0.6s ease 0.2s both;
+}
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.6s ease 0.3s both;
+}
+.btn-primary {
+  background: var(--accent);
+  color: var(--text-dark);
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary:hover { background: var(--accent-warm); color: white; transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.btn-outline {
+  border: 2px solid rgba(255,255,255,0.4);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+  background: transparent;
+}
+.btn-outline:hover { background: rgba(255,255,255,0.1); border-color: white; }
+
+/* ===== QUICK NAV CARDS ===== */
+.quick-nav {
+  margin-top: -40px;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 60px;
+}
+.quick-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.quick-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-dark);
+  border: 2px solid transparent;
+}
+.quick-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-light);
+}
+.quick-card-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+  font-size: 26px;
+}
+.quick-card:nth-child(1) .quick-card-icon { background: #E8F5E9; }
+.quick-card:nth-child(2) .quick-card-icon { background: #FFF3E0; }
+.quick-card:nth-child(3) .quick-card-icon { background: #E3F2FD; }
+.quick-card:nth-child(4) .quick-card-icon { background: #FCE4EC; }
+.quick-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.quick-card p { font-size: 13px; color: var(--text-light); }
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 80px 0;
+}
+.section-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 48px;
+}
+.section-label {
+  display: inline-block;
+  background: var(--bg-sage);
+  color: var(--primary);
+  padding: 4px 14px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+.section-header h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+.section-header p {
+  font-size: 15px;
+  color: var(--text-mid);
+}
+
+/* ===== 長照補助流程 ===== */
+.ltc-section {
+  background: var(--bg-sage);
+}
+.ltc-flow {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.flow-step {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 24px 16px;
+  text-align: center;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+.flow-step::after {
+  content: '→';
+  position: absolute;
+  right: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--primary-light);
+  font-size: 20px;
+  font-weight: bold;
+}
+.flow-step:last-child::after { display: none; }
+.step-num {
+  width: 32px;
+  height: 32px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.flow-step h4 { font-size: 14px; font-weight: 700; margin-bottom: 6px; color: var(--primary-dark); }
+.flow-step p { font-size: 12px; color: var(--text-light); line-height: 1.5; }
+
+/* ===== 補助表格 ===== */
+.subsidy-table {
+  background: var(--white);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 24px;
+}
+.subsidy-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.subsidy-table th {
+  background: var(--primary);
+  color: white;
+  padding: 14px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+.subsidy-table td {
+  padding: 12px 16px;
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+.subsidy-table tr:nth-child(even) { background: var(--bg-cream); }
+.subsidy-table tr:hover { background: #e8f5e9; }
+.highlight-row { background: #fff8e1 !important; }
+
+/* ===== PRODUCTS GRID ===== */
+.products-section { background: var(--white); }
+.product-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.tab-btn {
+  padding: 10px 24px;
+  border: 2px solid var(--border);
+  border-radius: 50px;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: var(--text-mid);
+}
+.tab-btn:hover, .tab-btn.active {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: white;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.product-card {
+  background: var(--bg-cream);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: all 0.3s;
+  border: 1px solid var(--border);
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-light);
+}
+.product-img {
+  height: 200px;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  position: relative;
+}
+.product-img .badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--accent);
+  color: var(--text-dark);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+}
+.product-info {
+  padding: 20px;
+}
+.product-info h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.product-info p { font-size: 13px; color: var(--text-light); margin-bottom: 12px; }
+.product-tag {
+  display: inline-block;
+  background: var(--bg-sage);
+  color: var(--primary);
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+/* ===== AMBULANCE SECTION ===== */
+.ambulance-section {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.ambulance-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(232,168,56,0.08), transparent);
+}
+.amb-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.amb-content h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.amb-content h2 em { color: var(--accent); font-style: normal; }
+.amb-content p { color: rgba(255,255,255,0.7); margin-bottom: 24px; font-size: 15px; }
+.amb-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.amb-feature {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.amb-feature h4 { font-size: 14px; font-weight: 700; margin-bottom: 4px; color: var(--accent); }
+.amb-feature p { font-size: 12px; color: rgba(255,255,255,0.6); margin: 0; }
+.amb-visual {
+  background: rgba(255,255,255,0.05);
+  border-radius: var(--radius-lg);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  border: 1px solid rgba(255,255,255,0.1);
+  position: relative;
+}
+
+/* ===== FAQ / 長照知識 ===== */
+.faq-section { background: var(--bg-warm); }
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.faq-item {
+  background: var(--white);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  transition: all 0.3s;
+}
+.faq-item:hover { border-color: var(--primary-light); }
+.faq-q {
+  padding: 20px 24px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+}
+.faq-q:hover { color: var(--primary); }
+.faq-q span { transition: transform 0.3s; }
+.faq-item.open .faq-q span { transform: rotate(45deg); }
+.faq-a {
+  padding: 0 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+.faq-item.open .faq-a {
+  padding: 0 24px 20px;
+  max-height: 500px;
+}
+.faq-a p { font-size: 14px; color: var(--text-mid); line-height: 1.8; }
+
+/* ===== CTA BANNER ===== */
+.cta-banner {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+.cta-banner h2 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+.cta-banner p { color: rgba(255,255,255,0.8); margin-bottom: 28px; font-size: 15px; }
+.cta-buttons { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+
+/* ===== FOOTER ===== */
+footer {
+  background: #1A1A1A;
+  color: rgba(255,255,255,0.6);
+  padding: 60px 0 30px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.footer-brand h3 {
+  font-family: 'Noto Serif TC', serif;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.footer-brand p { font-size: 13px; line-height: 1.8; }
+.footer-col h4 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.footer-col a {
+  display: block;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 4px 0;
+  transition: color 0.3s;
+}
+.footer-col a:hover { color: var(--accent); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* ===== FLOATING CTA ===== */
+.float-cta {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.float-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: var(--shadow-lg);
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+}
+.float-btn.phone { background: var(--primary); color: white; }
+.float-btn.line { background: #06C755; color: white; }
+.float-btn:hover { transform: scale(1.1); }
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== TABS CONTENT ===== */
+.tab-content { display: none; }
+.tab-content.active { display: grid; }
+
+/* ===== STRATEGY COMPARISON ===== */
+.comparison-section { background: var(--white); }
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.compare-card {
+  border-radius: var(--radius);
+  padding: 32px;
+  border: 2px solid var(--border);
+}
+.compare-card.recommended {
+  border-color: var(--primary);
+  position: relative;
+}
+.compare-card.recommended::before {
+  content: '✦ 推薦方案';
+  position: absolute;
+  top: -12px;
+  left: 24px;
+  background: var(--primary);
+  color: white;
+  padding: 4px 14px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.compare-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-family: 'Noto Serif TC', serif;
+}
+.compare-card .price { font-size: 14px; color: var(--text-light); margin-bottom: 20px; }
+.compare-list {
+  list-style: none;
+}
+.compare-list li {
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.compare-list li::before {
+  content: '✓';
+  color: var(--primary);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.compare-list li.con::before {
+  content: '✗';
+  color: #e53935;
+}
+
+/* ===== 知識專區 ===== */
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.knowledge-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  transition: all 0.3s;
+  text-decoration: none;
+  color: var(--text-dark);
+}
+.knowledge-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.knowledge-thumb {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.knowledge-card:nth-child(1) .knowledge-thumb { background: linear-gradient(135deg, #e8f5e9, #c8e6c9); }
+.knowledge-card:nth-child(2) .knowledge-thumb { background: linear-gradient(135deg, #fff3e0, #ffe0b2); }
+.knowledge-card:nth-child(3) .knowledge-thumb { background: linear-gradient(135deg, #e3f2fd, #bbdefb); }
+.knowledge-card:nth-child(4) .knowledge-thumb { background: linear-gradient(135deg, #fce4ec, #f8bbd0); }
+.knowledge-card:nth-child(5) .knowledge-thumb { background: linear-gradient(135deg, #f3e5f5, #e1bee7); }
+.knowledge-card:nth-child(6) .knowledge-thumb { background: linear-gradient(135deg, #e0f7fa, #b2ebf2); }
+.knowledge-body {
+  padding: 20px;
+}
+.knowledge-body .tag {
+  display: inline-block;
+  background: var(--bg-sage);
+  color: var(--primary);
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.knowledge-body h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; line-height: 1.4; }
+.knowledge-body p { font-size: 13px; color: var(--text-light); }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero h2 { font-size: 28px; }
+  .quick-nav-grid { grid-template-columns: repeat(2, 1fr); }
+  .ltc-flow { grid-template-columns: 1fr; }
+  .flow-step::after { display: none; }
+  .products-grid { grid-template-columns: 1fr; }
+  .amb-grid { grid-template-columns: 1fr; }
+  .faq-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .compare-grid { grid-template-columns: 1fr; }
+  .knowledge-grid { grid-template-columns: 1fr; }
+  nav .container { flex-wrap: wrap; justify-content: flex-start; }
+  nav a { padding: 10px 14px; font-size: 13px; }
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="container">
+    <span>📍 高雄市 · 在地服務超過20年 · 長照3.0輔具特約廠商</span>
+    <span>📞 免費諮詢專線：<a href="tel:07-XXX-XXXX">07-XXX-XXXX</a> | <a href="#">LINE 線上諮詢</a></span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-main">
+    <div class="container">
+      <a href="#" class="logo">
+        <div class="logo-icon">富</div>
+        <div class="logo-text">
+          <h1>富揚琦醫療器材</h1>
+          <span>FU YANG CHI MEDICAL SUPPLIES</span>
+        </div>
+      </a>
+      <div class="header-cta">
+        <a href="tel:07-XXX-XXXX" class="btn-phone">📞 立即諮詢</a>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <div class="container">
+      <a href="#" class="active">首頁</a>
+      <a href="#ltc">長照補助專區</a>
+      <a href="#products">輔具產品</a>
+      <a href="#ambulance">救護車打造</a>
+      <a href="#knowledge">長照知識</a>
+      <a href="#faq">常見問題</a>
+      <a href="#contact">聯絡我們</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">🏥 2026長照3.0 全面升級</div>
+      <h2>長照輔具補助申請<br><em>一站式專業服務</em></h2>
+      <p>從輔具評估、補助申請到居家無障礙改善，富揚琦為您的家人提供最完整的長照輔具解決方案。高雄在地深耕20餘年，政府特約廠商值得信賴。</p>
+      <div class="hero-buttons">
+        <a href="#ltc" class="btn-primary">📋 了解補助申請流程 →</a>
+        <a href="#products" class="btn-outline">🔍 瀏覽輔具產品</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK NAV -->
+<section class="quick-nav">
+  <div class="container">
+    <div class="quick-nav-grid">
+      <a href="#ltc" class="quick-card">
+        <div class="quick-card-icon">📋</div>
+        <h3>長照補助申請</h3>
+        <p>長照3.0最新補助辦法<br>手把手教你申請</p>
+      </a>
+      <a href="#products" class="quick-card">
+        <div class="quick-card-icon">🦽</div>
+        <h3>輔具產品</h3>
+        <p>輪椅、氣墊床、電動床<br>助行器、洗澡椅</p>
+      </a>
+      <a href="#ambulance" class="quick-card">
+        <div class="quick-card-icon">🚑</div>
+        <h3>救護車打造</h3>
+        <p>專業救護車改裝<br>Spencer擔架床</p>
+      </a>
+      <a href="#barrier-free" class="quick-card">
+        <div class="quick-card-icon">🏠</div>
+        <h3>無障礙改善</h3>
+        <p>居家環境改造<br>扶手・防滑・坡道</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 長照3.0補助專區 -->
+<section class="section ltc-section" id="ltc">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">長照3.0 補助專區</span>
+      <h2>長照輔具補助怎麼申請？</h2>
+      <p>2026年長照3.0全面上路，輔具補助再升級。撥打1966，五步驟輕鬆完成申請。</p>
+    </div>
+
+    <!-- 申請流程 -->
+    <div class="ltc-flow">
+      <div class="flow-step">
+        <div class="step-num">1</div>
+        <h4>撥打1966</h4>
+        <p>備好身分證字號<br>週一至五上班時間<br>前5分鐘免費</p>
+      </div>
+      <div class="flow-step">
+        <div class="step-num">2</div>
+        <h4>到府評估</h4>
+        <p>照管專員到家中<br>評估ADL/IADL<br>生活功能</p>
+      </div>
+      <div class="flow-step">
+        <div class="step-num">3</div>
+        <h4>核定等級</h4>
+        <p>核發等級公文<br>第2~8級<br>確認補助額度</p>
+      </div>
+      <div class="flow-step">
+        <div class="step-num">4</div>
+        <h4>規劃服務</h4>
+        <p>個管師與家屬<br>討論照顧計畫<br>配置輔具需求</p>
+      </div>
+      <div class="flow-step">
+        <div class="step-num">5</div>
+        <h4>開始使用</h4>
+        <p>至特約廠商<br>（如富揚琦）<br>購買或租賃輔具</p>
+      </div>
+    </div>
+
+    <!-- 補助金額表 -->
+    <div class="subsidy-table">
+      <table>
+        <thead>
+          <tr>
+            <th>補助項目</th>
+            <th>補助額度</th>
+            <th>補助週期</th>
+            <th>備註</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>輔具購買/租借</strong></td>
+            <td><strong>最高 40,000 元</strong></td>
+            <td>每 3 年</td>
+            <td>一般輔具（輪椅、氣墊床等）</td>
+          </tr>
+          <tr class="highlight-row">
+            <td><strong>智慧科技輔具租賃 🆕</strong></td>
+            <td><strong>最高 60,000 元</strong></td>
+            <td>每 3 年</td>
+            <td>2026/7/1起，含居家無障礙</td>
+          </tr>
+          <tr>
+            <td><strong>居家無障礙改善</strong></td>
+            <td><strong>最高 20,000 元</strong></td>
+            <td>每 3 年</td>
+            <td>扶手、防滑、坡道等</td>
+          </tr>
+          <tr>
+            <td><strong>照顧及專業服務</strong></td>
+            <td><strong>10,020~36,180 元/月</strong></td>
+            <td>每月</td>
+            <td>依失能等級2~8級</td>
+          </tr>
+          <tr>
+            <td><strong>交通接送</strong></td>
+            <td><strong>1,680~2,400 元/月</strong></td>
+            <td>每月</td>
+            <td>依居住地區分區</td>
+          </tr>
+          <tr>
+            <td><strong>喘息服務</strong></td>
+            <td><strong>32,340~48,510 元/年</strong></td>
+            <td>每年</td>
+            <td>依失能等級</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="text-align:center;font-size:13px;color:var(--text-light);">
+      ※ 自負額依身分別不同：一般戶16%、中低收入5%、低收入戶免費<br>
+      ※ 以上為2026年長照3.0最新標準，實際補助以各縣市公告為準<br>
+      ※ 富揚琦為政府長照輔具特約廠商，可協助您完成補助申請流程
+    </p>
+  </div>
+</section>
+
+<!-- 產品展示 -->
+<section class="section products-section" id="products">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">產品服務</span>
+      <h2>長照輔具 & 醫療器材</h2>
+      <p>提供超過萬種醫療器材與輔具，滿足居家照護、醫療機構、消防救護等各領域需求。</p>
+    </div>
+
+    <div class="product-tabs">
+      <button class="tab-btn active" onclick="switchTab('mobility')">行動輔具</button>
+      <button class="tab-btn" onclick="switchTab('bed')">照護床具</button>
+      <button class="tab-btn" onclick="switchTab('bath')">沐浴如廁</button>
+      <button class="tab-btn" onclick="switchTab('rehab')">復健器材</button>
+      <button class="tab-btn" onclick="switchTab('medical')">醫療器材</button>
+      <button class="tab-btn" onclick="switchTab('teaching')">教學設備</button>
+    </div>
+
+    <div id="tab-mobility" class="tab-content active products-grid">
+      <div class="product-card">
+        <div class="product-img">🦽<div class="badge">可補助</div></div>
+        <div class="product-info">
+          <h3>輕量化輪椅</h3>
+          <p>鋁合金骨架、可折疊收納，多款規格適用不同體型</p>
+          <span class="product-tag">長照補助</span><span class="product-tag">居家照護</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🚶<div class="badge">可補助</div></div>
+        <div class="product-info">
+          <h3>助行器 / 助步車</h3>
+          <p>四輪助步車、ㄇ型助行器，安全穩固支撐</p>
+          <span class="product-tag">長照補助</span><span class="product-tag">復健輔助</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🛵<div class="badge">可補助</div></div>
+        <div class="product-info">
+          <h3>電動代步車</h3>
+          <p>室內外兩用，安全穩定，提升長輩自主行動能力</p>
+          <span class="product-tag">長照補助</span><span class="product-tag">自主生活</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-bed" class="tab-content products-grid">
+      <div class="product-card">
+        <div class="product-img">🛏️<div class="badge">可補助</div></div>
+        <div class="product-info">
+          <h3>電動護理床</h3>
+          <p>三馬達電動調整，背部/腿部/高度獨立控制</p>
+          <span class="product-tag">長照補助</span><span class="product-tag">居家照護</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🫧<div class="badge">可補助</div></div>
+        <div class="product-info">
+          <h3>氣墊床</h3>
+          <p>交替式壓力氣墊，預防褥瘡，適用長期臥床者</p>
+          <span class="product-tag">長照補助</span><span class="product-tag">防褥瘡</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">📡<div class="badge">🆕 智慧輔具</div></div>
+        <div class="product-info">
+          <h3>智慧床墊</h3>
+          <p>離床偵測、呼吸監測、跌倒預警，2026/7起可租賃補助</p>
+          <span class="product-tag">智慧科技</span><span class="product-tag">安全看視</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-bath" class="tab-content products-grid">
+      <div class="product-card">
+        <div class="product-img">🪑<div class="badge">可補助</div></div>
+        <div class="product-info">
+          <h3>洗澡椅</h3>
+          <p>防滑穩固設計，有背靠扶手，適用各種浴室</p>
+          <span class="product-tag">長照補助</span><span class="product-tag">沐浴安全</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🚿<div class="badge">可補助</div></div>
+        <div class="product-info">
+          <h3>移動式便盆椅</h3>
+          <p>可調高度、附輪設計，方便如廁與移動</p>
+          <span class="product-tag">長照補助</span><span class="product-tag">如廁輔助</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🔧</div>
+        <div class="product-info">
+          <h3>浴室扶手安裝</h3>
+          <p>不鏽鋼安全扶手，專業施工，居家無障礙改善</p>
+          <span class="product-tag">無障礙改善</span><span class="product-tag">防跌</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-rehab" class="tab-content products-grid">
+      <div class="product-card">
+        <div class="product-img">💪</div>
+        <div class="product-info">
+          <h3>復健腳踏車</h3>
+          <p>坐姿/臥姿訓練，適合居家復健使用</p>
+          <span class="product-tag">復健器材</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🏋️</div>
+        <div class="product-info">
+          <h3>站立架 / 平行桿</h3>
+          <p>步態訓練、站立復健，醫院等級品質</p>
+          <span class="product-tag">復健器材</span><span class="product-tag">醫療等級</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🩺</div>
+        <div class="product-info">
+          <h3>血氧機 / 血壓計</h3>
+          <p>台灣製造，通過TFDA/FDA認證，精準量測</p>
+          <span class="product-tag">健康監測</span><span class="product-tag">台灣製造</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-medical" class="tab-content products-grid">
+      <div class="product-card">
+        <div class="product-img">💉</div>
+        <div class="product-info">
+          <h3>醫療耗材</h3>
+          <p>紗布、繃帶、棉球、手套、口罩等醫療耗材</p>
+          <span class="product-tag">醫護用品</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🫁</div>
+        <div class="product-info">
+          <h3>呼吸治療用品</h3>
+          <p>氧氣機、噴霧器、抽痰機等居家呼吸照護設備</p>
+          <span class="product-tag">呼吸照護</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">👩‍⚕️</div>
+        <div class="product-info">
+          <h3>護士服 / 醫護服飾</h3>
+          <p>護士服、醫師服、藥師服、實習服，可訂製</p>
+          <span class="product-tag">醫護服飾</span><span class="product-tag">可訂製</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-teaching" class="tab-content products-grid">
+      <div class="product-card">
+        <div class="product-img">🧪</div>
+        <div class="product-info">
+          <h3>醫學教學模型</h3>
+          <p>CPR安妮、護理訓練模型、解剖模型</p>
+          <span class="product-tag">教學設備</span><span class="product-tag">學校採購</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">📚</div>
+        <div class="product-info">
+          <h3>急救訓練器材</h3>
+          <p>AED訓練機、急救包、急救教學用品</p>
+          <span class="product-tag">急救訓練</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🏥</div>
+        <div class="product-info">
+          <h3>病房設備</h3>
+          <p>點滴架、隔離簾、護理站設備等</p>
+          <span class="product-tag">醫療設備</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 救護車打造 -->
+<section class="section ambulance-section" id="ambulance">
+  <div class="container">
+    <div class="amb-grid">
+      <div class="amb-content">
+        <span class="section-label" style="background: rgba(255,255,255,0.1); color: var(--accent);">專業服務</span>
+        <h2>救護車打造 &<br><em>Spencer 醫療擔架</em></h2>
+        <p>與義大利 Spencer 品牌合作，提供專業救護車改裝打造服務。從車體規劃、醫療設備配置到後續維護，一條龍專業服務。</p>
+        <div class="amb-features">
+          <div class="amb-feature">
+            <h4>🛻 救護車改裝</h4>
+            <p>依需求客製化設計車內醫療空間配置</p>
+          </div>
+          <div class="amb-feature">
+            <h4>🛏️ Spencer 擔架床</h4>
+            <p>義大利原裝進口，電動/手動多款可選</p>
+          </div>
+          <div class="amb-feature">
+            <h4>📦 急救醫材配置</h4>
+            <p>急救箱、氧氣設備、監測儀器等全套配備</p>
+          </div>
+          <div class="amb-feature">
+            <h4>🔧 維修保養</h4>
+            <p>定期巡檢維護，確保設備隨時可用</p>
+          </div>
+        </div>
+        <a href="#contact" class="btn-primary" style="display:inline-flex;">📞 洽詢救護車方案 →</a>
+      </div>
+      <div class="amb-visual">
+        🚑
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 長照知識專區 -->
+<section class="section" id="knowledge">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">長照知識專區</span>
+      <h2>照護家人的實用指南</h2>
+      <p>整理最新長照政策、輔具選購指南與照護技巧，協助您做出最適合的照護決策。</p>
+    </div>
+    <div class="knowledge-grid">
+      <a href="#" class="knowledge-card">
+        <div class="knowledge-thumb">📋</div>
+        <div class="knowledge-body">
+          <span class="tag">長照政策</span>
+          <h3>2026長照3.0完整攻略：申請資格、補助金額、新制重點</h3>
+          <p>長照3.0全面上路，一次搞懂最新補助...</p>
+        </div>
+      </a>
+      <a href="#" class="knowledge-card">
+        <div class="knowledge-thumb">🦽</div>
+        <div class="knowledge-body">
+          <span class="tag">輔具指南</span>
+          <h3>輔具怎麼選？輪椅、電動床、氣墊床選購完全指南</h3>
+          <p>根據失能等級與照護需求，選對輔具...</p>
+        </div>
+      </a>
+      <a href="#" class="knowledge-card">
+        <div class="knowledge-thumb">🏠</div>
+        <div class="knowledge-body">
+          <span class="tag">居家改善</span>
+          <h3>居家無障礙改善怎麼做？補助申請與施工重點整理</h3>
+          <p>浴室防滑、扶手安裝、門檻消除...</p>
+        </div>
+      </a>
+      <a href="#" class="knowledge-card">
+        <div class="knowledge-thumb">📡</div>
+        <div class="knowledge-body">
+          <span class="tag">新制重點</span>
+          <h3>智慧科技輔具租賃：2026/7起全新補助上路</h3>
+          <p>智慧床墊、離床偵測、安全看視...</p>
+        </div>
+      </a>
+      <a href="#" class="knowledge-card">
+        <div class="knowledge-thumb">💰</div>
+        <div class="knowledge-body">
+          <span class="tag">報稅須知</span>
+          <h3>長照扣除額提高至18萬！2026報稅別忘了</h3>
+          <p>家有長照需求，報稅時可善用扣除額...</p>
+        </div>
+      </a>
+      <a href="#" class="knowledge-card">
+        <div class="knowledge-thumb">👨‍👩‍👧‍👦</div>
+        <div class="knowledge-body">
+          <span class="tag">照護技巧</span>
+          <h3>有外籍看護也能申請長照！搭配使用完整指南</h3>
+          <p>外看家庭可用額度30%於社區式服務...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq-section" id="faq">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">常見問題</span>
+      <h2>長照輔具 Q&A</h2>
+      <p>整理最常被詢問的長照輔具問題，快速找到答案。</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item open">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          誰可以申請長照3.0補助？
+          <span>＋</span>
+        </div>
+        <div class="faq-a">
+          <p>2026年起，只要符合以下任一條件即可申請：65歲以上失能者、55歲以上失能原住民、不分年齡的失智症患者（3.0放寬至未滿50歲）、各年齡層身心障礙者（持身障手冊）、急性後期整合照護（PAC）個案。撥打1966長照專線即可安排評估。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          輔具補助每3年最高可以補助多少？
+          <span>＋</span>
+        </div>
+        <div class="faq-a">
+          <p>一般輔具購買/租借每3年最高補助40,000元。2026年7月起，新增智慧科技輔具租賃補助，整體上限提高至每3年60,000元（含居家無障礙改善）。一般戶自付16%，中低收入5%，低收入戶免費。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          家裡已經有請外籍看護，還能申請嗎？
+          <span>＋</span>
+        </div>
+        <div class="faq-a">
+          <p>可以！自2025年9月起，即使已聘僱外籍看護，仍可申請長照補助。每月額度的30%可用於日間照顧、家庭托顧等社區式服務。專業服務、交通接送、輔具補助同樣可以申請。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          富揚琦可以幫我處理補助申請嗎？
+          <span>＋</span>
+        </div>
+        <div class="faq-a">
+          <p>富揚琦為政府長照輔具特約廠商，我們可以協助您：提供輔具需求諮詢、協助準備補助申請文件、依據核定額度推薦適合的輔具產品、居家無障礙環境改善施工。歡迎來電或LINE諮詢。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          從申請到拿到輔具需要多久時間？
+          <span>＋</span>
+        </div>
+        <div class="faq-a">
+          <p>從撥打1966提出申請，經到府評估、核定等級、擬定計畫到開始使用服務，整個流程約需14個工作天。建議提早規劃，避免照顧上的空窗期。急需輔具的情況也可先來店諮詢。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Spencer 擔架床適用哪些場景？
+          <span>＋</span>
+        </div>
+        <div class="faq-a">
+          <p>Spencer 為義大利專業救護品牌，擔架床包含電動式與手動式兩種規格，適用於救護車、消防局、醫院急診室、護理之家等場所。富揚琦為台灣民用通路獨家代理，可提供完整的產品諮詢與售後服務。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner" id="contact">
+  <div class="container">
+    <h2>需要長照輔具協助？現在就與我們聯繫</h2>
+    <p>專業團隊免費諮詢，從輔具評估到補助申請，我們全程陪伴。</p>
+    <div class="cta-buttons">
+      <a href="tel:07-XXX-XXXX" class="btn-primary" style="font-size:18px;">📞 07-XXX-XXXX 立即來電</a>
+      <a href="#" class="btn-outline" style="border-color:rgba(255,255,255,0.5);">💬 LINE 線上諮詢</a>
+    </div>
+    <p style="margin-top:16px;font-size:13px;opacity:0.7;">
+      📍 高雄市（實體門市地址） ｜ 🕐 週一至週六 09:00-18:00
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>富揚琦醫療器材</h3>
+        <p>
+          高雄在地深耕超過20年的醫療器材專家。<br>
+          長照輔具特約廠商 ｜ Spencer台灣代理<br>
+          服務範圍：醫療器材、長照輔具、救護車打造、<br>
+          居家無障礙改善、醫護服飾、教學設備
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>服務項目</h4>
+        <a href="#ltc">長照補助申請</a>
+        <a href="#products">輔具產品</a>
+        <a href="#ambulance">救護車打造</a>
+        <a href="#barrier-free">無障礙改善</a>
+        <a href="#">醫護用品</a>
+        <a href="#">教學設備</a>
+      </div>
+      <div class="footer-col">
+        <h4>長照資訊</h4>
+        <a href="#">長照3.0補助說明</a>
+        <a href="#">輔具選購指南</a>
+        <a href="#">無障礙改善須知</a>
+        <a href="#">智慧輔具新制</a>
+        <a href="#">長照扣除額</a>
+      </div>
+      <div class="footer-col">
+        <h4>聯絡我們</h4>
+        <a href="tel:07-XXX-XXXX">📞 07-XXX-XXXX</a>
+        <a href="#">💬 LINE 官方帳號</a>
+        <a href="#">📧 Email 聯繫</a>
+        <a href="#">📍 門市地址導航</a>
+        <a href="#">🕐 營業時間</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 富揚琦有限公司 Fu Yang Chi Medical Supplies Co., Ltd. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING CTA -->
+<div class="float-cta">
+  <a href="tel:07-XXX-XXXX" class="float-btn phone" title="立即來電">📞</a>
+  <a href="#" class="float-btn line" title="LINE諮詢">💬</a>
+</div>
+
+<script>
+function switchTab(tabId) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + tabId).classList.add('active');
+  event.target.classList.add('active');
+}
+
+function toggleFaq(el) {
+  const item = el.parentElement;
+  item.classList.toggle('open');
+}
+
+// Smooth scroll for nav links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const href = this.getAttribute('href');
+    if (href !== '#') {
+      e.preventDefault();
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  });
+});
+</script>
+
+</body>
+</html>

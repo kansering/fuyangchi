@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" font-family="Noto Sans TC, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1B6B4A"/><stop offset="100%" stop-color="#0E4A33"/></linearGradient>
+    <filter id="s2"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg2)" rx="16"/>
+  <text x="600" y="50" text-anchor="middle" font-size="26" font-weight="bold" fill="white">長照3.0 補助金額一覽表</text>
+  <text x="600" y="78" text-anchor="middle" font-size="14" fill="rgba(255,255,255,0.7)">2026年最新標準｜富揚琦醫療器材整理</text>
+
+  <!-- Card 1 -->
+  <g transform="translate(40,110)" filter="url(#s2)">
+    <rect width="350" height="200" rx="14" fill="white"/>
+    <rect width="350" height="8" rx="4" fill="#E8A838" y="0"/>
+    <text x="175" y="45" text-anchor="middle" font-size="15" font-weight="bold" fill="#0E4A33">📋 照顧及專業服務</text>
+    <text x="175" y="80" text-anchor="middle" font-size="32" font-weight="bold" fill="#1B6B4A">10,020~36,180</text>
+    <text x="175" y="105" text-anchor="middle" font-size="14" fill="#7A7A7A">元/月（依失能等級2-8級）</text>
+    <line x1="40" y1="125" x2="310" y2="125" stroke="#E0DCD5" stroke-width="1"/>
+    <text x="175" y="150" text-anchor="middle" font-size="12" fill="#4A4A4A">含居家照顧、日間照顧</text>
+    <text x="175" y="170" text-anchor="middle" font-size="12" fill="#4A4A4A">復能照護、專業服務</text>
+    <text x="175" y="192" text-anchor="middle" font-size="11" fill="#E8A838">每月核定額度</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(420,110)" filter="url(#s2)">
+    <rect width="350" height="200" rx="14" fill="white"/>
+    <rect width="350" height="8" rx="4" fill="#2A9D6C" y="0"/>
+    <text x="175" y="45" text-anchor="middle" font-size="15" font-weight="bold" fill="#0E4A33">🦽 輔具購買/租借</text>
+    <text x="175" y="80" text-anchor="middle" font-size="32" font-weight="bold" fill="#1B6B4A">40,000</text>
+    <text x="175" y="105" text-anchor="middle" font-size="14" fill="#7A7A7A">元（每3年）</text>
+    <line x1="40" y1="125" x2="310" y2="125" stroke="#E0DCD5" stroke-width="1"/>
+    <text x="175" y="150" text-anchor="middle" font-size="12" fill="#4A4A4A">輪椅、氣墊床、電動床</text>
+    <text x="175" y="170" text-anchor="middle" font-size="12" fill="#4A4A4A">助行器、洗澡椅等</text>
+    <text x="175" y="192" text-anchor="middle" font-size="11" fill="#2A9D6C">每3年為一週期</text>
+  </g>
+
+  <!-- Card 3 (NEW) -->
+  <g transform="translate(800,110)" filter="url(#s2)">
+    <rect width="350" height="200" rx="14" fill="white"/>
+    <rect width="350" height="8" rx="4" fill="#E53935" y="0"/>
+    <text x="175" y="30" text-anchor="middle" font-size="11" font-weight="bold" fill="white">
+      <tspan fill="#E53935" font-size="13">🆕 2026/7 新制</tspan>
+    </text>
+    <text x="175" y="55" text-anchor="middle" font-size="15" font-weight="bold" fill="#0E4A33">📡 智慧科技輔具租賃</text>
+    <text x="175" y="90" text-anchor="middle" font-size="32" font-weight="bold" fill="#E53935">60,000</text>
+    <text x="175" y="115" text-anchor="middle" font-size="14" fill="#7A7A7A">元（每3年，含無障礙改善）</text>
+    <line x1="40" y1="135" x2="310" y2="135" stroke="#E0DCD5" stroke-width="1"/>
+    <text x="175" y="160" text-anchor="middle" font-size="12" fill="#4A4A4A">智慧床墊、離床偵測</text>
+    <text x="175" y="180" text-anchor="middle" font-size="12" fill="#4A4A4A">移位輔具、安全看視</text>
+    <text x="175" y="196" text-anchor="middle" font-size="11" fill="#E53935">2026年7月1日起</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(40,340)" filter="url(#s2)">
+    <rect width="350" height="160" rx="14" fill="white"/>
+    <rect width="350" height="8" rx="4" fill="#FF9800" y="0"/>
+    <text x="175" y="45" text-anchor="middle" font-size="15" font-weight="bold" fill="#0E4A33">🏠 居家無障礙改善</text>
+    <text x="175" y="80" text-anchor="middle" font-size="28" font-weight="bold" fill="#1B6B4A">20,000 元/3年</text>
+    <text x="175" y="110" text-anchor="middle" font-size="12" fill="#4A4A4A">扶手安裝、防滑處理、坡道、門檻消除</text>
+    <text x="175" y="140" text-anchor="middle" font-size="11" fill="#FF9800">含在輔具補助額度內</text>
+  </g>
+
+  <!-- Card 5 -->
+  <g transform="translate(420,340)" filter="url(#s2)">
+    <rect width="350" height="160" rx="14" fill="white"/>
+    <rect width="350" height="8" rx="4" fill="#9C27B0" y="0"/>
+    <text x="175" y="45" text-anchor="middle" font-size="15" font-weight="bold" fill="#0E4A33">🚐 交通接送</text>
+    <text x="175" y="80" text-anchor="middle" font-size="28" font-weight="bold" fill="#1B6B4A">1,680~2,400 元/月</text>
+    <text x="175" y="110" text-anchor="middle" font-size="12" fill="#4A4A4A">依居住地分區計算補助額度</text>
+    <text x="175" y="140" text-anchor="middle" font-size="11" fill="#9C27B0">就醫、復健、日照接送</text>
+  </g>
+
+  <!-- Card 6 -->
+  <g transform="translate(800,340)" filter="url(#s2)">
+    <rect width="350" height="160" rx="14" fill="white"/>
+    <rect width="350" height="8" rx="4" fill="#00BCD4" y="0"/>
+    <text x="175" y="45" text-anchor="middle" font-size="15" font-weight="bold" fill="#0E4A33">😮‍💨 喘息服務</text>
+    <text x="175" y="80" text-anchor="middle" font-size="28" font-weight="bold" fill="#1B6B4A">32,340~48,510 元/年</text>
+    <text x="175" y="110" text-anchor="middle" font-size="12" fill="#4A4A4A">居家喘息、機構喘息、日間喘息</text>
+    <text x="175" y="140" text-anchor="middle" font-size="11" fill="#00BCD4">讓照顧者也能休息</text>
+  </g>
+
+  <text x="600" y="540" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.5)">自負額：一般戶16% ｜ 中低收入戶5% ｜ 低收入戶免費</text>
+  <text x="600" y="565" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.4)">以上為2026年長照3.0標準，實際以各縣市公告為準｜富揚琦醫療器材 07-XXX-XXXX</text>
+</svg>

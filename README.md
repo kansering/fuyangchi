@@ -1,5 +1,9 @@
 # 富揚琦醫療器材網站 — GitHub Pages 部署指南
 
+## 🎯 這是什麼？
+這是你的完整網站，包含首頁、15篇長照SEO文章、3張資訊圖、sitemap等。
+上傳到 GitHub 後會自動變成一個免費的網站。
+
 ---
 
 ## 📋 部署步驟（第一次，約15分鐘）
@@ -49,12 +53,12 @@
 
 ### 步驟1：在 GitHub 設定
 1. Settings > Pages > Custom domain
-2. 輸入 `www.OOOOOO.com.tw`
+2. 輸入 `www.fuyangchi.com.tw`
 3. 點 Save
 4. 勾選 "Enforce HTTPS"
 
 ### 步驟2：在網域商設定 DNS
-到你購買 OOOOOO.com.tw 的地方（如中華電信、PChome等），設定以下 DNS 記錄：
+到你購買 fuyangchi.com.tw 的地方（如中華電信、PChome等），設定以下 DNS 記錄：
 
 **A 記錄（指向 GitHub）：**
 ```
@@ -79,7 +83,7 @@ DNS 設定後需等待 5 分鐘到 24 小時生效。
 
 ```bash
 # 1. 下載你的網站
-git clone https://github.com/你的帳號/OOOOOO-website.git
+git clone https://github.com/你的帳號/fuyangchi-website.git
 cd fuyangchi-website
 
 # 2. 啟動 Claude Code
@@ -87,7 +91,7 @@ claude
 
 # 3. 告訴 Claude 你要新增文章
 # 例如："幫我寫一篇關於電動代步車選購的文章，加到網站上"
-# Claude 會自動使用 OOOOOO-content skill 來撰寫和格式化
+# Claude 會自動使用 fuyangchi-content skill 來撰寫和格式化
 
 # 4. 推送更新
 git add .
@@ -102,7 +106,7 @@ git push
 ## 📁 檔案結構說明
 
 ```
-OOOOOO-website/
+fuyangchi-website/
 ├── index.html          ← 首頁（完整版含所有區塊）
 ├── style.css           ← 共用樣式
 ├── main.js             ← 互動功能
@@ -127,3 +131,15 @@ OOOOOO-website/
 ```
 
 ---
+
+## 💡 費用
+
+| 項目 | 費用 |
+|------|------|
+| GitHub Pages 託管 | **免費** |
+| HTTPS/SSL 憑證 | **免費**（自動） |
+| 網域（如已有） | 已有就不用再買 |
+| 頻寬 | 每月 100GB（一般網站完全夠用） |
+| 儲存空間 | 1GB（目前只用了 179KB） |
+
+**總費用：$0**（使用現有網域的情況下）

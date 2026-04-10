@@ -2,6 +2,7 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
+<meta name="google-site-verification" content="BJb66ArtpU1yhRzlurizrMk2_2MTkqM3KbmkPVk0maE" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>高雄長照輔具補助申請｜救護車打造｜富揚琦醫療器材｜20年在地經驗</title>
 <meta name="description" content="高雄市三民區長照輔具特約廠商｜富揚琦醫療器材。長照3.0輔具補助申請、救護車打造、居家無障礙改善、電動護理床、氣墊床、輪椅。20年專業服務，政府特約廠商。免費諮詢07-3981317。">
@@ -976,7 +977,6 @@ footer {
   nav .container { flex-wrap: wrap; justify-content: flex-start; }
   nav a { padding: 10px 14px; font-size: 13px; }
 }
-
 /* SCROLL ANIMATIONS */
 .fade-in-up{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
 .fade-in-up.visible{opacity:1;transform:translateY(0)}
@@ -1560,7 +1560,7 @@ footer {
         <h4>聯絡我們</h4>
         <a href="tel:07-3981317">📞 07-3981317</a>
         <a href="#">💬 LINE 官方帳號</a>
-        <a href="/cdn-cgi/l/email-protection#a7c1d2dec6c9c0c4cfcee7c0cac6cecb89c4c8ca">📧 <span class="__cf_email__" data-cfemail="cbadbeb2aaa5aca8a3a28baca6aaa2a7e5a8a4a6">[email&#160;protected]</span></a>
+        <a href="mailto:fuyangchi@gmail.com">📧 fuyangchi@gmail.com</a>
         <a href="#">📍 門市地址導航</a>
         <a href="#">🕐 營業時間</a>
       </div>
@@ -1577,7 +1577,7 @@ footer {
   <a href="#" class="float-btn line" title="LINE諮詢">💬</a>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="main.js"></script>
+<script src="main.js"></script>
 <script>
 function switchTab(tabId) {
   document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
@@ -1595,3 +1595,16 @@ function toggleFaq(el) {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     const href = this.getAttribute('href');
+    if (href !== '#') {
+      e.preventDefault();
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  });
+});
+</script>
+
+</body>
+</html>

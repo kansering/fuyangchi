@@ -1,110 +1,1565 @@
-<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>輔具產品目錄｜富揚琦醫療器材</title><meta name="description" content="富揚琦完整產品目錄：輪椅、電動床、氣墊床、助行器、洗澡椅等長照輔具，多項可申請政府補助。"><link rel="icon" type="image/png" href="images/logo.png"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
-<style>
-.ph{background:linear-gradient(135deg,var(--primary-dark),var(--primary));padding:100px 0 50px;position:relative;overflow:hidden}
-.ph::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:40px;background:var(--bg-cream);clip-path:ellipse(55% 100% at 50% 100%)}
-.ph h1{font-family:'Noto Serif TC',serif;font-size:36px;color:#fff;font-weight:700}
-.ph .su{color:rgba(255,255,255,.7);font-size:15px;margin-top:8px}
-.sn{color:var(--accent);font-size:12px;letter-spacing:3px;font-weight:600;display:flex;align-items:center;gap:8px;margin-bottom:12px}
-.sn::before{content:'';width:32px;height:1px;background:var(--accent)}
-.pl{display:flex;gap:32px;padding:40px 0 80px}
-.sb{width:260px;flex-shrink:0;position:sticky;top:90px;align-self:flex-start}
-.sbh{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
-.sbh h3{font-size:14px;font-weight:600}
-.cb{font-size:12px;color:var(--accent-warm);cursor:pointer;border:none;background:none;font-family:'Noto Sans TC'}
-.fs{margin-bottom:24px}
-.fl{font-size:11px;font-weight:600;letter-spacing:2px;color:var(--text-light);margin-bottom:10px}
-.fo{display:flex;width:100%;text-align:left;padding:8px 12px;font-size:14px;border:none;background:transparent;border-radius:6px;cursor:pointer;font-family:'Noto Sans TC';color:var(--text-mid);transition:all .15s;justify-content:space-between;align-items:center}
-.fo:hover{background:var(--bg-sage)}.fo.a{background:rgba(27,107,74,.1);color:var(--primary);font-weight:500}.fo.a::after{content:'';width:6px;height:6px;background:var(--primary);border-radius:50%}
-.dv{height:1px;background:var(--border);margin-bottom:24px}
-.ltb{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:6px;border:1px solid var(--border);cursor:pointer;transition:all .15s;background:transparent;width:100%;font-family:'Noto Sans TC'}
-.ltb.a{border-color:var(--primary);background:rgba(27,107,74,.06)}
-.ck{width:16px;height:16px;border-radius:4px;border:2px solid var(--text-light);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:10px;color:#fff;transition:all .15s}
-.ltb.a .ck{background:var(--primary);border-color:var(--primary)}
-.pm{flex:1;min-width:0}
-.sb2{display:flex;justify-content:space-between;align-items:center;padding-bottom:16px;margin-bottom:24px;border-bottom:1px solid var(--border)}
-.aft{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.ftg{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;font-size:12px;border-radius:4px;background:rgba(27,107,74,.1);color:var(--primary)}
-.ftg button{border:none;background:none;cursor:pointer;font-size:14px;color:var(--primary);line-height:1}
-.ss{padding:8px 12px;border:1px solid var(--border);border-radius:6px;font-size:13px;font-family:'Noto Sans TC';background:#fff}
-.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.pc{background:#fff;border-radius:10px;overflow:hidden;border:1px solid var(--border);transition:all .3s;opacity:0;transform:translateY(20px);animation:ci .5s ease forwards}
-@keyframes ci{to{opacity:1;transform:translateY(0)}}
-.pc:nth-child(1){animation-delay:0s}.pc:nth-child(2){animation-delay:.06s}.pc:nth-child(3){animation-delay:.12s}.pc:nth-child(4){animation-delay:.18s}.pc:nth-child(5){animation-delay:.24s}.pc:nth-child(6){animation-delay:.3s}
-.pc:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:var(--primary-light)}
-.pi{height:180px;display:flex;align-items:center;justify-content:center;font-size:48px;position:relative}
-.bd{position:absolute;top:10px;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:700}
-.bd.s{background:var(--primary);color:#fff;left:10px}.bd.n{background:var(--accent);color:var(--text-dark);right:10px}
-.pb{padding:16px}.pb h3{font-size:15px;font-weight:600;margin-bottom:4px}.pb p{font-size:12px;color:var(--text-light);margin-bottom:10px;line-height:1.5}
-.tg{display:inline-block;padding:2px 8px;border-radius:50px;font-size:11px;font-weight:600;background:var(--bg-sage);color:var(--primary);margin:0 4px 4px 0}
-.mf{display:none;align-items:center;gap:8px;padding:10px 16px;border:1px solid var(--border);border-radius:6px;background:#fff;font-family:'Noto Sans TC';font-size:14px;cursor:pointer;margin-bottom:16px}
-.tip{padding:16px;border-radius:8px;background:var(--bg-sage);border:1px solid var(--border);margin-top:24px}
-@media(max-width:1024px){.pg{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:768px){.sb{display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:200;background:#fff;padding:20px;overflow-y:auto}.sb.sh{display:block}.mf{display:flex}.pg{grid-template-columns:1fr}.pl{flex-direction:column}.ph h1{font-size:28px}}
-</style></head><body>
-<div class="top-bar"><div class="container"><span>📍 高雄市 · 在地20年 · 長照3.0輔具特約廠商</span><span>📞 <a href="tel:07-3981317">07-3981317</a> / <a href="tel:0975785568">0975-785-568</a></span></div></div>
-<header><div class="header-main"><div class="container"><a href="index.html" class="logo"><div class="logo-icon"><img src="images/logo.png" alt="Logo"></div><div class="logo-text"><h1>富揚琦醫療器材</h1><span>FUYANGCHI CO., LTD.</span></div></a><div class="header-cta"><a href="tel:07-3981317" class="btn-phone">📞 立即諮詢</a></div></div></div><nav><div class="container"><a href="index.html">首頁</a><a href="ltc.html">長照補助專區</a><a href="products.html" class="active">輔具產品</a><a href="ambulance.html">救護車打造</a><a href="articles/">長照知識</a><a href="faq.html">常見問題</a><a href="contact.html">聯絡我們</a></div></nav></header>
-<div class="ph"><div class="container"><div class="sn">產品目錄</div><h1 id="pt">全部產品</h1><p class="su">共 <span id="cnt">0</span> 件產品</p></div></div>
-<div class="container"><div class="pl">
-<button class="mf" onclick="document.querySelector('.sb').classList.toggle('sh')">☰ 篩選條件</button>
-<aside class="sb"><div class="sbh"><h3>篩選條件</h3><button class="cb" onclick="cf()">✕ 清除</button></div>
-<div class="fs"><div class="fl">產品分類</div><div id="cfs"></div></div><div class="dv"></div>
-<div class="fs"><div class="fl">長照補助</div><button class="ltb" id="ltg" onclick="tl()"><div class="ck" id="lcb"></div><span style="font-size:14px;color:var(--text-mid)">僅顯示可補助產品</span></button></div>
-<div class="tip"><p style="font-size:13px;font-weight:600;color:var(--primary-dark);margin-bottom:8px">💡 需要幫忙選輔具？</p><p style="font-size:12px;color:var(--text-mid);line-height:1.6;margin-bottom:12px">專業人員根據您的長照等級，推薦最適合的輔具。</p><a href="tel:07-3981317" style="display:inline-block;padding:8px 16px;background:var(--primary);color:#fff;border-radius:6px;font-size:13px;text-decoration:none;font-weight:500">📞 免費諮詢</a></div>
-</aside>
-<div class="pm"><div class="sb2"><div class="aft" id="af"></div><select class="ss" id="so" onchange="rp()"><option value="default">預設排序</option><option value="name">名稱排序</option></select></div><div class="pg" id="gr"></div></div>
-</div></div>
-<section class="cta-banner"><div class="container"><h2>需要長照輔具協助？</h2><p>專業團隊免費諮詢，從輔具評估到補助申請全程陪伴。</p><div class="cta-buttons"><a href="tel:07-3981317" class="btn-primary">📞 07-3981317</a><a href="linktree.html" class="btn-outline" style="border-color:rgba(255,255,255,.5)">💬 聯絡方式</a></div></div></section>
-<footer><div class="container"><div class="footer-grid"><div class="footer-brand"><h3>富揚琦醫療器材</h3><p>高雄在地20年。<br>長照輔具特約廠商 ｜ Spencer台灣代理</p></div><div class="footer-col"><h4>服務</h4><a href="ltc.html">長照補助</a><a href="products.html">輔具產品</a><a href="ambulance.html">救護車</a></div><div class="footer-col"><h4>資訊</h4><a href="articles/">全部文章</a><a href="faq.html">常見問題</a></div><div class="footer-col"><h4>聯絡</h4><a href="tel:07-3981317">📞 07-3981317</a><a href="mailto:fuyangchi@gmail.com">📧 fuyangchi@gmail.com</a></div></div><div class="footer-bottom"><p>&copy; 2026 富揚琦有限公司 Fuyangchi Co., Ltd.</p></div></div></footer>
-<div class="float-cta"><a href="tel:07-3981317" class="float-btn phone">📞</a><a href="linktree.html" class="float-btn line">💬</a></div>
-<script>
-const P=[
-{n:'輕量化鋁合金輪椅',c:'wheelchair',e:'🦽',d:'鋁合金骨架、可折疊收納',l:1,t:['長照補助','居家照護'],b:'#e8f5e9'},
-{n:'高背輪椅（仰躺型）',c:'wheelchair',e:'🦽',d:'可調背靠角度，需頭頸支撐者適用',l:1,t:['長照補助','高背'],b:'#e8f5e9'},
-{n:'電動輪椅',c:'wheelchair',e:'🦼',d:'搖桿操控，室內外兩用',l:1,t:['長照補助','電動'],b:'#e8f5e9'},
-{n:'電動代步車',c:'scooter',e:'🛵',d:'四輪穩定，適合戶外購物',l:1,t:['長照補助','戶外'],b:'#fff3e0'},
-{n:'ㄇ型助行器',c:'walker',e:'🚶',d:'四點支撐、穩定性最高',l:1,t:['長照補助','穩定'],b:'#e3f2fd'},
-{n:'四輪助步車',c:'walker',e:'🚶',d:'推行順暢、附座椅可休息',l:1,t:['長照補助','可坐'],b:'#e3f2fd'},
-{n:'R型助行器',c:'walker',e:'🚶',d:'單手可操作',l:1,t:['長照補助'],b:'#e3f2fd'},
-{n:'三馬達電動護理床',c:'bed',e:'🛏️',d:'背部/腿部/高度獨立控制',l:1,t:['長照補助','三馬達'],b:'#fce4ec'},
-{n:'雙馬達電動護理床',c:'bed',e:'🛏️',d:'背部和腿部升降，最常見規格',l:1,t:['長照補助','雙馬達'],b:'#fce4ec'},
-{n:'氣墊床（交替式）',c:'bed',e:'🫧',d:'交替充放氣，預防褥瘡',l:1,t:['長照補助','防褥瘡'],b:'#fce4ec'},
-{n:'智慧床墊（離床偵測）',c:'bed',e:'📡',d:'監測睡眠、離床警示。2026/7可租賃補助',l:1,w:1,t:['智慧輔具','2026新制'],b:'#f3e5f5'},
-{n:'有背靠洗澡椅',c:'bath',e:'🪑',d:'防滑穩固，適用各種浴室',l:1,t:['長照補助','沐浴'],b:'#e0f7fa'},
-{n:'附輪便盆椅',c:'bath',e:'🚿',d:'兼具移位和如廁功能',l:1,t:['長照補助','如廁'],b:'#e0f7fa'},
-{n:'馬桶增高器',c:'bath',e:'🚽',d:'安裝在現有馬桶上',l:1,t:['長照補助'],b:'#e0f7fa'},
-{n:'不鏽鋼浴室扶手',c:'barrier',e:'🔧',d:'L型/I型，專業施工',l:0,t:['無障礙改善','防跌'],b:'#fff8e1'},
-{n:'防滑地磚施工',c:'barrier',e:'🏠',d:'浴室防滑處理',l:0,t:['無障礙改善'],b:'#fff8e1'},
-{n:'門檻消除/斜坡道',c:'barrier',e:'🏠',d:'方便輪椅進出',l:0,t:['無障礙改善'],b:'#fff8e1'},
-{n:'血氧機',c:'medical',e:'❤️',d:'台灣製造，TFDA認證',l:0,t:['健康監測','台灣製造'],b:'#fce4ec'},
-{n:'血壓計',c:'medical',e:'🩺',d:'手臂式電子血壓計',l:0,t:['健康監測'],b:'#fce4ec'},
-{n:'抽痰機',c:'medical',e:'🫁',d:'居家呼吸照護',l:0,t:['呼吸照護'],b:'#fce4ec'},
-{n:'氧氣機',c:'medical',e:'🫁',d:'居家氧氣供應，靜音',l:0,t:['呼吸照護'],b:'#fce4ec'},
-{n:'護士服（長短袖）',c:'uniform',e:'👩‍⚕️',d:'裙裝/褲裝，可訂製繡字',l:0,t:['醫護服飾','可訂製'],b:'#e8eaf6'},
-{n:'醫生服/藥師服',c:'uniform',e:'👨‍⚕️',d:'長短袖，實驗服',l:0,t:['醫護服飾'],b:'#e8eaf6'},
-{n:'CPR訓練模型',c:'teaching',e:'🧪',d:'CPR安妮、護理訓練模型',l:0,t:['教學設備'],b:'#efebe9'},
-{n:'AED訓練機',c:'teaching',e:'📚',d:'急救訓練用AED模擬器',l:0,t:['急救訓練'],b:'#efebe9'},
-];
-const C=[{i:'all',l:'全部產品'},{i:'wheelchair',l:'輪椅'},{i:'walker',l:'助行器/助步車'},{i:'bed',l:'照護床具/氣墊床'},{i:'scooter',l:'電動代步車'},{i:'bath',l:'沐浴如廁輔具'},{i:'barrier',l:'無障礙改善'},{i:'medical',l:'醫療器材/監測'},{i:'uniform',l:'醫護服飾'},{i:'teaching',l:'教學設備'}];
-let sc='all',lo=false;
-function init(){const p=new URLSearchParams(location.search);if(p.get('category'))sc=p.get('category');rc();rp()}
-function rc(){document.getElementById('cfs').innerHTML=C.map(c=>'<button class="fo'+(sc===c.i?' a':'')+'" onclick="sel(\''+c.i+'\')">'+c.l+'</button>').join('')}
-function sel(i){sc=i;rc();rp()}
-function tl(){lo=!lo;document.getElementById('ltg').classList.toggle('a',lo);document.getElementById('lcb').textContent=lo?'✓':'';rp()}
-function cf(){sc='all';lo=false;document.getElementById('ltg').classList.remove('a');document.getElementById('lcb').textContent='';rc();rp()}
-function rp(){
-let f=P.filter(p=>{if(sc!=='all'&&p.c!==sc)return false;if(lo&&!p.l)return false;return true});
-if(document.getElementById('so').value==='name')f.sort((a,b)=>a.n.localeCompare(b.n,'zh-TW'));
-const cl=C.find(c=>c.i===sc)?.l||'全部產品';
-document.getElementById('pt').textContent=cl;
-document.getElementById('cnt').textContent=f.length;
-const fh=[];
-if(sc!=='all')fh.push('<span class="ftg">'+cl+' <button onclick="sel(\'all\')">✕</button></span>');
-if(lo)fh.push('<span class="ftg" style="background:rgba(232,168,56,.15);color:var(--accent-warm)">長照補助 <button onclick="tl()" style="color:var(--accent-warm)">✕</button></span>');
-document.getElementById('af').innerHTML=fh.length?'<span style="font-size:13px;color:var(--text-light)">已篩選：</span>'+fh.join(''):'';
-const g=document.getElementById('gr');
-if(!f.length){g.innerHTML='<div style="grid-column:1/-1;text-align:center;padding:80px 0"><div style="font-size:48px;opacity:.3;margin-bottom:16px">🔍</div><h3 style="font-size:18px;margin-bottom:8px">找不到符合條件的產品</h3><p style="font-size:14px;color:var(--text-light);margin-bottom:20px">請嘗試調整篩選條件</p><button onclick="cf()" class="btn-primary">清除篩選</button></div>';return}
-g.innerHTML=f.map(p=>'<div class="pc"><div class="pi" style="background:linear-gradient(135deg,'+p.b+','+p.b+'dd)">'+p.e+(p.l?'<span class="bd s">可補助</span>':'')+(p.w?'<span class="bd n">🆕 新制</span>':'')+'</div><div class="pb"><h3>'+p.n+'</h3><p>'+p.d+'</p><div>'+p.t.map(t=>'<span class="tg">'+t+'</span>').join('')+'</div></div></div>').join('');
-document.querySelector('.sb')?.classList.remove('sh');
-}
-init();
-</script></body></html>
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>長照輔具產品目錄｜富揚琦醫療器材</title>
+  <meta name="description" content="富揚琦提供完整長照輔具目錄：輪椅、電動護理床、氣墊床、助行器、沐浴椅。多項可申請長照3.0補助，最高補助6萬元。">
+
+  <!-- =====================================================
+  📋 設定區（你只需要改這裡）
+  ====================================================== -->
+  <script>
+    // 第一步：把你的 Google Sheets ID 填在這裡
+    // 網址長這樣：https://docs.google.com/spreadsheets/d/【這段就是ID】/edit
+    const SHEET_ID = '15TOcJ61nfb8KR1KvAffeJk51QLdtR6i_bdj99EKsht8';
+
+    // 第二步：把工作表名稱填在這裡（預設是「工作表1」）
+    const SHEET_NAME = '產品列表';
+  </script>
+  <!-- ====================================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1B6B4A;
+      --primary-light: #2A9D6C;
+      --primary-dark: #0E4A33;
+      --accent: #E8A838;
+      --accent-warm: #D4742C;
+      --bg-cream: #FAF7F2;
+      --bg-sage: #EEF3ED;
+      --text-dark: #1A1A1A;
+      --text-mid: #4A4A4A;
+      --text-light: #7A7A7A;
+      --border: #E0DCD5;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, .06);
+      --shadow-md: 0 4px 20px rgba(0, 0, 0, .10);
+      --radius: 12px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background: var(--bg-cream);
+      color: var(--text-dark);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    img {
+      display: block;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ===== Top bar ===== */
+    .top-bar {
+      background: var(--primary-dark);
+      color: #fff;
+      padding: 8px 0;
+      font-size: 13px;
+    }
+
+    .top-bar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .top-bar a {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    /* ===== Header ===== */
+    header {
+      background: #fff;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-main {
+      padding: 16px 0;
+    }
+
+    .header-main .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .logo-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .logo-text h1 {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Noto Serif TC', serif;
+      color: var(--primary-dark);
+      line-height: 1.2;
+    }
+
+    .logo-text span {
+      font-size: 11px;
+      color: var(--text-light);
+      letter-spacing: 1px;
+    }
+
+    .btn-phone {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: 500;
+      font-size: 14px;
+      transition: background .3s;
+    }
+
+    .btn-phone:hover {
+      background: var(--primary-dark);
+    }
+
+    nav {
+      background: var(--primary);
+    }
+
+    nav .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: rgba(255, 255, 255, .9);
+      padding: 14px 24px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all .3s;
+      position: relative;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #fff;
+      background: rgba(255, 255, 255, .1);
+    }
+
+    nav a.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30px;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 3px 3px 0 0;
+    }
+
+    /* ===== Page Hero ===== */
+    .page-hero {
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+      padding: 60px 0 40px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .page-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 40px;
+      background: var(--bg-cream);
+      clip-path: ellipse(55% 100% at 50% 100%);
+    }
+
+    .page-hero h2 {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 34px;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .page-hero .subtitle {
+      color: rgba(255, 255, 255, .75);
+      font-size: 15px;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 32px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+
+    .hero-stat {
+      color: rgba(255, 255, 255, .9);
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .hero-stat strong {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    /* ===== Loading / Error states ===== */
+    .loading-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 80px 20px;
+      gap: 20px;
+      color: var(--text-light);
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid var(--border);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .error-box {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      margin: 40px 0;
+      max-width: 600px;
+    }
+
+    .error-box h3 {
+      color: #856404;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .error-box p {
+      font-size: 14px;
+      color: #664d03;
+      line-height: 1.7;
+    }
+
+    .error-box code {
+      background: rgba(0, 0, 0, .08);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+
+    /* ===== Layout ===== */
+    .product-layout {
+      display: flex;
+      gap: 32px;
+      padding: 40px 0 80px;
+    }
+
+    /* ===== Sidebar ===== */
+    .sidebar {
+      width: 260px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 90px;
+      align-self: flex-start;
+      max-height: calc(100vh - 110px);
+      overflow-y: auto;
+    }
+
+    .sidebar::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .sidebar::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+
+    .filter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .filter-header h3 {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .filter-clear {
+      font-size: 12px;
+      color: var(--accent-warm);
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    .filter-clear:hover {
+      background: rgba(212, 116, 44, .08);
+    }
+
+    .filter-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: var(--text-light);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .filter-option {
+      display: flex;
+      width: 100%;
+      text-align: left;
+      padding: 9px 12px;
+      font-size: 13px;
+      border-radius: 8px;
+      color: var(--text-mid);
+      transition: all .15s;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 2px;
+    }
+
+    .filter-option:hover {
+      background: var(--bg-sage);
+    }
+
+    .filter-option.active {
+      background: rgba(27, 107, 74, .1);
+      color: var(--primary);
+      font-weight: 500;
+    }
+
+    .filter-option .count {
+      font-size: 11px;
+      color: var(--text-light);
+      background: var(--border);
+      padding: 1px 7px;
+      border-radius: 99px;
+      flex-shrink: 0;
+    }
+
+    .filter-option.active .count {
+      background: rgba(27, 107, 74, .15);
+      color: var(--primary);
+    }
+
+    .filter-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 20px 0;
+    }
+
+    .subsidy-toggle {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      border: 1.5px solid var(--border);
+      cursor: pointer;
+      transition: all .2s;
+      background: transparent;
+      width: 100%;
+    }
+
+    .subsidy-toggle.active {
+      border-color: var(--primary);
+      background: rgba(27, 107, 74, .06);
+    }
+
+    .subsidy-toggle .checkbox {
+      width: 18px;
+      height: 18px;
+      border-radius: 5px;
+      border: 2px solid var(--text-light);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: #fff;
+      transition: all .2s;
+    }
+
+    .subsidy-toggle.active .checkbox {
+      background: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .subsidy-toggle span {
+      font-size: 13px;
+      color: var(--text-mid);
+    }
+
+    .subsidy-toggle.active span {
+      color: var(--primary);
+      font-weight: 500;
+    }
+
+    .sidebar-tip {
+      background: var(--bg-sage);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin-top: 8px;
+    }
+
+    .sidebar-tip h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--primary-dark);
+      margin-bottom: 6px;
+    }
+
+    .sidebar-tip p {
+      font-size: 12px;
+      color: var(--text-mid);
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .sidebar-tip a {
+      display: inline-block;
+      padding: 8px 16px;
+      background: var(--primary);
+      color: #fff;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .sidebar-tip a:hover {
+      background: var(--primary-dark);
+    }
+
+    /* ===== Main content ===== */
+    .main-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .search-bar-wrap {
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 12px 16px 12px 44px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-size: 14px;
+      font-family: 'Noto Sans TC', sans-serif;
+      background: #fff;
+      color: var(--text-dark);
+      transition: border-color .2s, box-shadow .2s;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(27, 107, 74, .1);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 16px;
+      opacity: .5;
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .active-filters {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filter-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      font-size: 12px;
+      border-radius: 6px;
+      background: rgba(27, 107, 74, .1);
+      color: var(--primary);
+    }
+
+    .filter-tag button {
+      font-size: 14px;
+      color: var(--primary);
+      line-height: 1;
+      opacity: .7;
+    }
+
+    .result-count {
+      font-size: 13px;
+      color: var(--text-light);
+      white-space: nowrap;
+    }
+
+    .result-count strong {
+      color: var(--text-dark);
+      font-weight: 600;
+    }
+
+    .sort-select {
+      padding: 8px 12px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 13px;
+      font-family: 'Noto Sans TC', sans-serif;
+      background: #fff;
+    }
+
+    /* ===== Product Grid ===== */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1.5px solid var(--border);
+      transition: transform .25s, box-shadow .25s, border-color .25s;
+      position: relative;
+      opacity: 0;
+      animation: fadeUp .4s ease forwards;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(14px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .product-card:nth-child(1) {
+      animation-delay: .00s
+    }
+
+    .product-card:nth-child(2) {
+      animation-delay: .05s
+    }
+
+    .product-card:nth-child(3) {
+      animation-delay: .10s
+    }
+
+    .product-card:nth-child(4) {
+      animation-delay: .15s
+    }
+
+    .product-card:nth-child(5) {
+      animation-delay: .20s
+    }
+
+    .product-card:nth-child(6) {
+      animation-delay: .25s
+    }
+
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-light);
+    }
+
+    /* Card image */
+    .card-img-wrap {
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      background: var(--bg-sage);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .4s ease;
+    }
+
+    .product-card:hover .card-img-wrap img {
+      transform: scale(1.04);
+    }
+
+    /* Emoji fallback */
+    .card-img-emoji {
+      font-size: 64px;
+      line-height: 1;
+      transition: transform .3s ease;
+    }
+
+    .product-card:hover .card-img-emoji {
+      transform: scale(1.08);
+    }
+
+    /* Badges */
+    .badge-subsidy {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--primary);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 5px;
+      z-index: 1;
+    }
+
+    .badge-new {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: var(--accent);
+      color: var(--text-dark);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 5px;
+      z-index: 1;
+    }
+
+    /* Card body */
+    .card-body {
+      padding: 16px;
+    }
+
+    .card-body h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .card-body p {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-bottom: 12px;
+      line-height: 1.6;
+      min-height: 36px;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 600;
+      background: var(--bg-sage);
+      color: var(--primary);
+    }
+
+    /* Card QA section */
+    .card-qa {
+      border-top: 1px solid var(--border);
+      padding: 10px 16px 14px;
+      background: var(--bg-cream);
+    }
+
+    .card-qa details summary {
+      font-size: 12px;
+      color: var(--primary);
+      cursor: pointer;
+      font-weight: 500;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .card-qa details summary::before {
+      content: '＋';
+      font-size: 14px;
+    }
+
+    .card-qa details[open] summary::before {
+      content: '－';
+    }
+
+    .card-qa details p {
+      font-size: 12px;
+      color: var(--text-mid);
+      margin-top: 8px;
+      line-height: 1.7;
+    }
+
+    /* Card contact button */
+    .card-contact {
+      display: block;
+      margin: 12px 16px 16px;
+      padding: 9px;
+      background: var(--bg-sage);
+      border-radius: 8px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--primary);
+      font-weight: 500;
+      transition: background .2s;
+    }
+
+    .card-contact:hover {
+      background: rgba(27, 107, 74, .15);
+    }
+
+    /* ===== Empty state ===== */
+    .empty-state {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .empty-state .icon {
+      font-size: 48px;
+      opacity: .25;
+      margin-bottom: 16px;
+    }
+
+    .empty-state h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .empty-state p {
+      font-size: 14px;
+      color: var(--text-light);
+      margin-bottom: 20px;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: var(--text-dark);
+      padding: 12px 24px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all .3s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-warm);
+      color: #fff;
+    }
+
+    /* ===== Mobile filter ===== */
+    .mobile-filter-btn {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      font-size: 14px;
+      margin-bottom: 16px;
+      width: 100%;
+    }
+
+    .drawer-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, .4);
+      z-index: 200;
+    }
+
+    .drawer-overlay.open {
+      display: block;
+    }
+
+    .sidebar-drawer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 300px;
+      background: #fff;
+      z-index: 201;
+      padding: 24px;
+      overflow-y: auto;
+      transform: translateX(-100%);
+      transition: transform .3s ease;
+    }
+
+    .sidebar-drawer.open {
+      transform: translateX(0);
+    }
+
+    .drawer-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .drawer-close {
+      font-size: 22px;
+      color: var(--text-mid);
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    .drawer-close:hover {
+      background: var(--bg-sage);
+    }
+
+    /* ===== CTA ===== */
+    .cta-banner {
+      background: linear-gradient(135deg, var(--primary), var(--primary-light));
+      padding: 60px 0;
+      text-align: center;
+      color: #fff;
+    }
+
+    .cta-banner h2 {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .cta-banner p {
+      color: rgba(255, 255, 255, .8);
+      margin-bottom: 28px;
+      font-size: 15px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn-outline {
+      border: 2px solid rgba(255, 255, 255, .4);
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 50px;
+      font-weight: 500;
+      font-size: 15px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all .3s;
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, .1);
+      border-color: #fff;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      background: #1A1A1A;
+      color: rgba(255, 255, 255, .6);
+      padding: 60px 0 30px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    .footer-brand h3 {
+      font-family: 'Noto Serif TC', serif;
+      color: #fff;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    .footer-brand p {
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .footer-col h4 {
+      color: #fff;
+      font-size: 14px;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    .footer-col a {
+      display: block;
+      color: rgba(255, 255, 255, .5);
+      font-size: 13px;
+      padding: 4px 0;
+      transition: color .3s;
+    }
+
+    .footer-col a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, .1);
+      padding-top: 20px;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .float-cta {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .float-btn {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      box-shadow: var(--shadow-md);
+      transition: all .3s;
+    }
+
+    .float-btn.phone {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .float-btn.line {
+      background: #06C755;
+      color: #fff;
+    }
+
+    .float-btn:hover {
+      transform: scale(1.1);
+    }
+
+    @media(max-width:1024px) {
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr)
+      }
+    }
+
+    @media(max-width:768px) {
+      .sidebar {
+        display: none
+      }
+
+      .mobile-filter-btn {
+        display: flex
+      }
+
+      .product-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px
+      }
+
+      .page-hero h2 {
+        font-size: 26px
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr
+      }
+
+      nav .container {
+        justify-content: flex-start;
+        overflow-x: auto;
+        flex-wrap: nowrap
+      }
+
+      nav a {
+        padding: 12px 16px;
+        white-space: nowrap
+      }
+
+      .card-img-wrap {
+        height: 160px
+      }
+    }
+
+    @media(max-width:480px) {
+      .product-grid {
+        grid-template-columns: 1fr
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr
+      }
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--primary);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <a href="#products" class="sr-only">跳至主要內容</a>
+
+  <div class="top-bar">
+    <div class="container">
+      <span>📍 高雄市三民區 · 在地20年 · 長照3.0輔具特約廠商</span>
+      <span>📞 <a href="tel:07-3981317">07-3981317</a> / <a href="tel:0975785568">0975-785-568</a></span>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-main">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="images/logo.png" alt="富揚琦醫療器材" width="48" height="48"></div>
+          <div class="logo-text">
+            <h1>富揚琦醫療器材</h1>
+            <span>FUYANGCHI CO., LTD.</span>
+          </div>
+        </a>
+        <a href="tel:07-3981317" class="btn-phone">📞 立即諮詢</a>
+      </div>
+    </div>
+    <nav>
+      <div class="container">
+        <a href="index.html">首頁</a>
+        <a href="ltc.html">長照補助專區</a>
+        <a href="products.html" class="active">輔具產品</a>
+        <a href="ambulance.html">救護車打造</a>
+        <a href="articles/">長照知識</a>
+        <a href="faq.html">常見問題</a>
+        <a href="contact.html">聯絡我們</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h2 id="page-title">長照輔具產品目錄</h2>
+      <p class="subtitle">多項產品可申請長照3.0補助，最高補助6萬元</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong id="total-count">—</strong> 件產品</div>
+        <div class="hero-stat"><strong id="subsidy-count">—</strong> 項可補助</div>
+        <div class="hero-stat"><strong>20</strong> 年在地服務</div>
+      </div>
+    </div>
+  </section>
+
+  <main id="products">
+    <div class="container">
+      <div class="product-layout">
+
+        <button class="mobile-filter-btn" onclick="openDrawer()" id="filter-btn">
+          ☰ 篩選條件
+          <span id="mobile-badge"
+            style="display:none; background:var(--primary); color:#fff; font-size:11px; padding:1px 8px; border-radius:99px;"></span>
+        </button>
+
+        <div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()"></div>
+        <aside class="sidebar-drawer" id="sidebar-drawer">
+          <div class="drawer-header">
+            <h3 style="font-size:16px;font-weight:700;">篩選條件</h3>
+            <button class="drawer-close" onclick="closeDrawer()">✕</button>
+          </div>
+          <div id="drawer-content"></div>
+        </aside>
+
+        <aside class="sidebar">
+          <div class="filter-header">
+            <h3>篩選條件</h3>
+            <button class="filter-clear" onclick="clearFilters()">✕ 清除</button>
+          </div>
+          <div class="filter-label">產品分類</div>
+          <div id="cat-filters"></div>
+          <div class="filter-divider"></div>
+          <div class="filter-label">長照補助</div>
+          <button class="subsidy-toggle" id="subsidy-btn" onclick="toggleSubsidy()">
+            <div class="checkbox" id="subsidy-check"></div>
+            <span>僅顯示可補助產品</span>
+          </button>
+          <div class="filter-divider"></div>
+          <div class="sidebar-tip">
+            <h4>💡 不知道選哪款？</h4>
+            <p>依您的長照等級免費推薦最適合的輔具。</p>
+            <a href="tel:07-3981317">📞 免費諮詢</a>
+          </div>
+        </aside>
+
+        <div class="main-content">
+          <div class="search-bar-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="search" class="search-input" id="search-input" placeholder="搜尋產品名稱（例：輪椅、電動床、防褥瘡）"
+              oninput="render()">
+          </div>
+          <div class="toolbar">
+            <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+              <span class="result-count">共 <strong id="result-count">0</strong> 件</span>
+              <div class="active-filters" id="active-filters"></div>
+            </div>
+            <select class="sort-select" id="sort-sel" onchange="render()">
+              <option value="default">預設排序</option>
+              <option value="subsidy">補助優先</option>
+              <option value="name">名稱排序</option>
+            </select>
+          </div>
+          <div class="product-grid" id="grid" role="list"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="cta-banner">
+    <div class="container">
+      <h2>需要長照輔具協助？</h2>
+      <p>專業團隊免費諮詢，從輔具評估到補助申請全程陪伴。</p>
+      <div class="cta-buttons">
+        <a href="tel:07-3981317" class="btn-primary">📞 07-3981317</a>
+        <a href="linktree.html" class="btn-outline">💬 更多聯絡方式</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>富揚琦醫療器材</h3>
+          <p>高雄在地20年。<br>長照輔具特約廠商 ｜ Spencer台灣代理</p>
+        </div>
+        <div class="footer-col">
+          <h4>服務</h4>
+          <a href="ltc.html">長照補助申請</a>
+          <a href="products.html">輔具產品目錄</a>
+          <a href="ambulance.html">救護車打造</a>
+        </div>
+        <div class="footer-col">
+          <h4>資訊</h4>
+          <a href="articles/">長照知識文章</a>
+          <a href="faq.html">常見問題</a>
+        </div>
+        <div class="footer-col">
+          <h4>聯絡</h4>
+          <a href="tel:07-3981317">📞 07-3981317</a>
+          <a href="tel:0975785568">📱 0975-785-568</a>
+          <a href="mailto:fuyangchi@gmail.com">📧 Email</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 富揚琦有限公司 | 高雄市三民區 | 長照輔具特約廠商</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="float-cta">
+    <a href="tel:07-3981317" class="float-btn phone">📞</a>
+    <a href="linktree.html" class="float-btn line">💬</a>
+  </div>
+
+  <script>
+    // ===================================================
+    //  從 Google Sheets 讀取產品資料
+    //  試算表欄位順序：
+    //  A:名稱 B:分類 C:描述 D:圖片網址 E:可補助(是/否)
+    //  F:新制(是/否) G:標籤(逗號分隔) H:補助說明 I:Emoji備用
+    // ===================================================
+
+    const CATEGORIES_MAP = {
+      '輪椅': 'wheelchair',
+      '助行器': 'walker',
+      '照護床具': 'bed',
+      '電動代步車': 'scooter',
+      '沐浴如廁': 'bath',
+      '無障礙改善': 'barrier',
+      '醫療器材': 'medical',
+      '醫護服飾': 'uniform',
+      '教學設備': 'teaching',
+    };
+
+    const CATEGORY_LABELS = [
+      { id: 'all', label: '全部產品' },
+      { id: 'wheelchair', label: '輪椅' },
+      { id: 'walker', label: '助行器 / 助步車' },
+      { id: 'bed', label: '照護床具 / 氣墊床' },
+      { id: 'scooter', label: '電動代步車' },
+      { id: 'bath', label: '沐浴如廁輔具' },
+      { id: 'barrier', label: '無障礙環境改善' },
+      { id: 'medical', label: '醫療器材 / 監測' },
+      { id: 'uniform', label: '醫護服飾' },
+      { id: 'teaching', label: '教學設備' },
+    ];
+
+    // 分類預設背景色
+    const CAT_BG = {
+      wheelchair: 'linear-gradient(135deg,#e8f5e9,#c8e6c9)',
+      walker: 'linear-gradient(135deg,#e3f2fd,#bbdefb)',
+      bed: 'linear-gradient(135deg,#fce4ec,#f8bbd0)',
+      scooter: 'linear-gradient(135deg,#fff3e0,#ffe0b2)',
+      bath: 'linear-gradient(135deg,#e0f7fa,#b2ebf2)',
+      barrier: 'linear-gradient(135deg,#fff8e1,#ffecb3)',
+      medical: 'linear-gradient(135deg,#fce4ec,#f8bbd0)',
+      uniform: 'linear-gradient(135deg,#e8eaf6,#c5cae9)',
+      teaching: 'linear-gradient(135deg,#efebe9,#d7ccc8)',
+    };
+
+    let ALL_PRODUCTS = [];
+    let state = { cat: 'all', subsidy: false, search: '', sort: 'default' };
+
+    // ---- 讀取 Google Sheets ----
+    async function fetchProducts() {
+      const grid = document.getElementById('grid');
+
+      // 顯示載入中
+      grid.innerHTML = `
+    <div class="loading-wrap" style="grid-column:1/-1">
+      <div class="spinner"></div>
+      <p style="font-size:14px;">正在載入產品資料…</p>
+    </div>`;
+
+      // 使用 Google Sheets CSV 匯出（不需要 API 金鑰）
+      const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
+
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const csv = await res.text();
+        ALL_PRODUCTS = parseCSV(csv);
+        render();
+      } catch (err) {
+        showError(err);
+      }
+    }
+
+    // ---- 解析 CSV ----
+    function parseCSV(csv) {
+      const lines = csv.trim().split('\n');
+      // 跳過第一行（欄位標題）
+      return lines.slice(1).map(line => {
+        const cols = parseCSVLine(line);
+        const catKey = (cols[1] || '').trim();
+        return {
+          name: (cols[0] || '').replace(/^"|"$/g, '').trim(),
+          catKey: catKey,
+          cat: CATEGORIES_MAP[catKey] || 'medical',
+          desc: (cols[2] || '').replace(/^"|"$/g, '').trim(),
+          imgUrl: (cols[3] || '').replace(/^"|"$/g, '').trim(),
+          subsidy: (cols[4] || '').replace(/^"|"$/g, '').trim() === '是',
+          isNew: (cols[5] || '').replace(/^"|"$/g, '').trim() === '是',
+          tags: (cols[6] || '').replace(/^"|"$/g, '').trim().split(',').map(t => t.trim()).filter(Boolean),
+          qa: (cols[7] || '').replace(/^"|"$/g, '').trim(),
+          emoji: (cols[8] || '').replace(/^"|"$/g, '').trim() || '📦',
+        };
+      }).filter(p => p.name); // 過濾空行
+    }
+
+    // CSV 欄位解析（處理含逗號的引號欄位）
+    function parseCSVLine(line) {
+      const result = [];
+      let cur = '', inQ = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (ch === '"') {
+          if (inQ && line[i + 1] === '"') { cur += '"'; i++; }
+          else inQ = !inQ;
+        } else if (ch === ',' && !inQ) {
+          result.push(cur); cur = '';
+        } else {
+          cur += ch;
+        }
+      }
+      result.push(cur);
+      return result;
+    }
+
+    // ---- 轉換 Google Drive 圖片連結 ----
+    // 使用者貼的通常是分享連結，需要轉換成直接圖片網址
+    function toDirectImgUrl(url) {
+      if (!url) return '';
+      // Google Drive 分享連結格式
+      const m = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+      if (m) return `https://drive.google.com/thumbnail?id=${m[1]}&sz=w600`;
+      return url; // 其他圖床直接用
+    }
+
+    // ---- 渲染 ----
+    function render() {
+      state.search = document.getElementById('search-input').value.trim();
+      state.sort = document.getElementById('sort-sel').value;
+
+      let list = ALL_PRODUCTS.filter(p => {
+        if (state.cat !== 'all' && p.cat !== state.cat) return false;
+        if (state.subsidy && !p.subsidy) return false;
+        if (state.search) {
+          const q = state.search.toLowerCase();
+          return p.name.toLowerCase().includes(q)
+            || p.desc.toLowerCase().includes(q)
+            || p.tags.some(t => t.toLowerCase().includes(q))
+            || (p.qa || '').toLowerCase().includes(q);
+        }
+        return true;
+      });
+
+      if (state.sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name, 'zh-TW'));
+      if (state.sort === 'subsidy') list.sort((a, b) => (b.subsidy ? 1 : 0) - (a.subsidy ? 1 : 0));
+
+      updateURL();
+      renderFilters();
+
+      // 統計
+      document.getElementById('total-count').textContent = ALL_PRODUCTS.length;
+      document.getElementById('subsidy-count').textContent = ALL_PRODUCTS.filter(p => p.subsidy).length;
+      document.getElementById('result-count').textContent = list.length;
+
+      // Active filter tags
+      const tags = [];
+      const catLabel = CATEGORY_LABELS.find(c => c.id === state.cat)?.label;
+      if (state.cat !== 'all') tags.push(`<span class="filter-tag">${catLabel} <button onclick="selectCat('all')">✕</button></span>`);
+      if (state.subsidy) tags.push(`<span class="filter-tag" style="background:rgba(232,168,56,.12);color:var(--accent-warm)">長照補助 <button onclick="toggleSubsidy()" style="color:var(--accent-warm)">✕</button></span>`);
+      if (state.search) tags.push(`<span class="filter-tag">搜尋：${state.search} <button onclick="clearSearch()">✕</button></span>`);
+      document.getElementById('active-filters').innerHTML = tags.join('');
+
+      // Subsidy toggle
+      document.getElementById('subsidy-btn').classList.toggle('active', state.subsidy);
+      document.getElementById('subsidy-btn').setAttribute('aria-checked', state.subsidy);
+      document.getElementById('subsidy-check').textContent = state.subsidy ? '✓' : '';
+
+      // Mobile badge
+      const cnt = (state.cat !== 'all' ? 1 : 0) + (state.subsidy ? 1 : 0);
+      const badge = document.getElementById('mobile-badge');
+      badge.textContent = cnt || ''; badge.style.display = cnt ? 'inline' : 'none';
+
+      // Page title
+      if (state.cat !== 'all' && catLabel) document.getElementById('page-title').textContent = catLabel + ' 產品列表';
+      else if (state.search) document.getElementById('page-title').textContent = '搜尋：' + state.search;
+      else document.getElementById('page-title').textContent = '長照輔具產品目錄';
+
+      // Cards
+      const grid = document.getElementById('grid');
+      if (!list.length) {
+        grid.innerHTML = `
+      <div class="empty-state">
+        <div class="icon">🔍</div>
+        <h3>找不到符合條件的產品</h3>
+        <p>請嘗試調整篩選條件，或直接來電諮詢</p>
+        <button class="btn-primary" onclick="clearFilters()">清除篩選條件</button>
+      </div>`;
+        return;
+      }
+
+      grid.innerHTML = list.map((p, i) => {
+        const imgSrc = toDirectImgUrl(p.imgUrl);
+        const bg = CAT_BG[p.cat] || 'linear-gradient(135deg,#f5f5f5,#eeeeee)';
+        const delay = Math.min(i, 6) * 0.05;
+
+        const imgArea = imgSrc
+          ? `<img src="${imgSrc}" alt="${p.name}" loading="lazy"
+           onerror="this.parentNode.innerHTML='<span class=card-img-emoji aria-hidden=true>${p.emoji}</span>'">`
+          : `<span class="card-img-emoji" aria-hidden="true">${p.emoji}</span>`;
+
+        return `
+      <article class="product-card" role="listitem" style="animation-delay:${delay}s" aria-label="${p.name}">
+        <div class="card-img-wrap" style="${imgSrc ? '' : 'background:' + bg}">
+          ${imgArea}
+          ${p.subsidy ? '<span class="badge-subsidy">可補助</span>' : ''}
+          ${p.isNew ? '<span class="badge-new">🆕 新制</span>' : ''}
+        </div>
+        <div class="card-body">
+          <h3>${p.name}</h3>
+          <p>${p.desc || '&nbsp;'}</p>
+          <div class="card-tags">${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+        </div>
+        ${p.qa ? `<div class="card-qa"><details><summary>補助說明 / 使用情境</summary><p>${p.qa}</p></details></div>` : ''}
+        <a href="tel:07-3981317" class="card-contact">📞 來電詢問此產品</a>
+      </article>`;
+      }).join('');
+    }
+
+    function renderFilters() {
+      const counts = { all: ALL_PRODUCTS.length };
+      CATEGORY_LABELS.forEach(c => counts[c.id] = 0);
+      ALL_PRODUCTS.forEach(p => { if (counts[p.cat] !== undefined) counts[p.cat]++; });
+
+      const html = CATEGORY_LABELS.map(c => `
+    <button class="filter-option${state.cat === c.id ? ' active' : ''}" onclick="selectCat('${c.id}')">
+      <span>${c.label}</span>
+      <span class="count">${counts[c.id] ?? 0}</span>
+    </button>`).join('');
+
+      document.getElementById('cat-filters').innerHTML = html;
+
+      // Drawer
+      document.getElementById('drawer-content').innerHTML = `
+    <div class="filter-label">產品分類</div>
+    ${html}
+    <div class="filter-divider"></div>
+    <div class="filter-label">長照補助</div>
+    <button class="subsidy-toggle${state.subsidy ? ' active' : ''}" onclick="toggleSubsidy()">
+      <div class="checkbox">${state.subsidy ? '✓' : ''}</div>
+      <span>僅顯示可補助產品</span>
+    </button>`;
+    }
+
+    // ---- Actions ----
+    function selectCat(id) { state.cat = id; render(); closeDrawer(); }
+    function toggleSubsidy() { state.subsidy = !state.subsidy; render(); }
+    function clearFilters() { state.cat = 'all'; state.subsidy = false; state.search = ''; document.getElementById('search-input').value = ''; render(); }
+    function clearSearch() { state.search = ''; document.getElementById('search-input').value = ''; render(); }
+
+    function updateURL() {
+      const p = new URLSearchParams();
+      if (state.cat !== 'all') p.set('category', state.cat);
+      if (state.subsidy) p.set('subsidy', '1');
+      if (state.search) p.set('q', state.search);
+      history.replaceState(null, '', location.pathname + (p.toString() ? '?' + p : ''));
+    }
+
+    function openDrawer() { document.getElementById('drawer-overlay').classList.add('open'); document.getElementById('sidebar-drawer').classList.add('open'); document.body.style.overflow = 'hidden'; }
+    function closeDrawer() { document.getElementById('drawer-overlay').classList.remove('open'); document.getElementById('sidebar-drawer').classList.remove('open'); document.body.style.overflow = ''; }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+    function showError(err) {
+      document.getElementById('grid').innerHTML = `
+    <div style="grid-column:1/-1">
+      <div class="error-box">
+        <h3>⚠️ 無法載入產品資料</h3>
+        <p>請確認以下設定是否正確：</p>
+        <p>1. <code>SHEET_ID</code> 是否填入正確的試算表 ID</p>
+        <p>2. Google Sheets 是否已設定為「任何人都可以查看」</p>
+        <p>3. 工作表名稱是否與 <code>SHEET_NAME</code> 一致</p>
+        <p style="margin-top:8px; color:#999; font-size:11px;">錯誤：${err.message}</p>
+      </div>
+    </div>`;
+    }
+
+    // ---- Init ----
+    const urlP = new URLSearchParams(location.search);
+    if (urlP.get('category')) state.cat = urlP.get('category');
+    if (urlP.get('subsidy') === '1') state.subsidy = true;
+    if (urlP.get('q')) { state.search = urlP.get('q'); document.getElementById('search-input').value = state.search; }
+
+    fetchProducts();
+  </script>
+</body>
+
+</html>

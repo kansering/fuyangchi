@@ -129,6 +129,135 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.6);padding:60px 0 30px}
 }
 @media(max-width:480px){.flow-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}}
 </style>
+<!-- HowTo Schema — AEO精選摘要：Google直接展示五步驟申請流程 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "長照輔具補助怎麼申請？五步驟完整流程",
+  "description": "從撥打1966到開始使用輔具，完整說明長照3.0補助申請五步驟，約需14個工作天。",
+  "totalTime": "P14D",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "TWD",
+    "value": "0",
+    "description": "一般戶自付16%，中低收入5%，低收入戶免費"
+  },
+  "supply": [
+    {"@type": "HowToSupply", "name": "身分證字號"},
+    {"@type": "HowToSupply", "name": "健保卡"},
+    {"@type": "HowToSupply", "name": "醫師診斷書（部分情況需要）"}
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "撥打1966長照專線",
+      "text": "備好身分證字號，撥打衛福部長照專線1966，說明需求並預約到府評估。週一至週五上班時間，前5分鐘免費。",
+      "url": "https://kansering.github.io/fuyangchi/ltc.html#step1"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "照管專員到府評估",
+      "text": "照管專員到家中評估ADL（日常生活活動）和IADL（工具性日常生活活動），判定失能程度與照護需求。",
+      "url": "https://kansering.github.io/fuyangchi/ltc.html#step2"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "核定失能等級",
+      "text": "評估後核發等級公文（第2至8級），確認可申請的補助額度，等級越高補助越多。",
+      "url": "https://kansering.github.io/fuyangchi/ltc.html#step3"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "擬定照顧計畫",
+      "text": "個案管理師與家屬討論照顧計畫，配置輔具需求、居家服務、喘息服務等項目。",
+      "url": "https://kansering.github.io/fuyangchi/ltc.html#step4"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "至特約廠商選購輔具",
+      "text": "持核定公文至富揚琦等政府長照輔具特約廠商，依核定額度購買或租賃輔具，一般戶自付16%。",
+      "url": "https://kansering.github.io/fuyangchi/ltc.html#step5"
+    }
+  ]
+}
+</script>
+
+<!-- FAQPage Schema — AEO：讓長照補助問答出現在Google精選摘要 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "長照補助怎麼申請？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "撥打1966長照專線申請，照管專員到府評估失能等級（2至8級），核定後可至富揚琦等政府特約廠商購買或租賃輔具。一般戶補助84%，全程約14個工作天。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "長照輔具補助最高可以拿多少錢？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "輔具購買或租借每3年最高補助40,000元；2026年7月起智慧科技輔具整體上限提高至60,000元（含居家無障礙改善）。一般戶自付16%，中低收入自付5%，低收入戶免費。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "長照申請資格是什麼？誰可以申請？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "符合以下任一條件：65歲以上失能者、55歲以上失能原住民、不分年齡的失智症患者、持身心障礙手冊者。撥打1966由專員免費到府評估，不需自行判斷是否符合資格。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "有請外籍看護還能申請長照補助嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以。自2025年9月起，已聘外籍看護的家庭仍可申請長照服務，每月核定額度30%可用於日間照顧等社區式服務，輔具補助不受影響。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "富揚琦可以幫我申請長照補助嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "富揚琦為政府長照輔具特約廠商，提供免費輔具需求評估、協助準備申請文件、依核定額度推薦適合產品等服務。來電07-3981317即可預約免費諮詢。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "2026年長照3.0有哪些新規定？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "主要新制：①智慧科技輔具租賃補助2026年7月上路，整體上限提高至60,000元 ②長照扣除額提高至每人每月15,000元 ③外籍看護家庭可申請30%額度用於社區式服務。"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Speakable Schema — 讓 AI 語音搜尋優先引用這些段落 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "長照補助專區｜富揚琦醫療器材",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".page-hero h1", ".tldr", ".flow-section"]
+  }
+}
+</script>
 </head>
 <body>
 
@@ -141,7 +270,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.6);padding:60px 0 30px}
   <div class="header-main"><div class="container">
     <a href="index.html" class="logo">
       <div class="logo-icon"><img src="images/logo.png" alt="富揚琦醫療器材" width="48" height="48"></div>
-      <div class="logo-text"><h1>富揚琦醫療器材</h1><span>Fuyangchi Co., Ltd.</span></div>
+      <div class="logo-text"><h1>富揚琦醫療器材</h1><span>FUYANGCHI CO., LTD.</span></div>
     </a>
     <a href="tel:07-3981317" class="btn-phone">📞 立即諮詢</a>
   </div></div>
@@ -352,7 +481,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.6);padding:60px 0 30px}
     <div class="footer-grid">
       <div class="footer-brand">
         <h3>富揚琦醫療器材</h3>
-        <p>高雄在地20年。<br>長照輔具特約廠商 ｜ Spencer台灣總經銷</p>
+        <p>高雄在地20年。<br>長照輔具特約廠商 ｜ Spencer台灣代理</p>
       </div>
       <div class="footer-col">
         <h4>服務</h4>

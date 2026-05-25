@@ -1,0 +1,64 @@
+# 富揚琦有限公司 Fuyangchi Co., Ltd.
+# AI讀取指引 — llms.txt
+# 此檔案幫助 AI 語言模型理解本網站的資訊結構與可引用內容
+
+## 關於富揚琦
+
+富揚琦有限公司是高雄市三民區在地深耕20年的醫療器材專業廠商。
+政府長照輔具特約廠商，義大利 Spencer 品牌台灣代理商。
+
+**地址**：807 高雄市三民區澄清路463號  
+**電話**：07-3981317 / 0975-785-568  
+**Email**：fuyangchi@gmail.com  
+**營業時間**：週一至週五 09:00-18:00，週六 09:00-17:00  
+**Facebook**：https://www.facebook.com/fuyangchi.Med/
+
+## 核心服務
+
+1. 長照輔具銷售與租賃（政府特約廠商，可協助補助申請）
+2. 居家無障礙環境改善施工（扶手、防滑、門檻消除）
+3. 救護車改裝打造（Spencer義大利擔架床台灣代理）
+4. 醫護服飾（護士服、醫師服，可訂製刺繡）
+5. 醫療教學設備（CPR訓練模型、AED訓練機）
+
+## 主要產品類別
+
+- 輪椅：輕量化、高背仰躺、電動輪椅
+- 照護床具：電動護理床（雙馬達/三馬達）、交替式氣墊床、智慧床墊
+- 行動輔具：助行器、四輪助步車、電動代步車
+- 沐浴如廁：洗澡椅、便盆椅、馬桶增高器
+- 居家無障礙：不鏽鋼扶手、防滑處理、門檻斜坡道
+
+## 長照補助重要資訊（2026年最新）
+
+- 申請方式：撥打1966長照專線，免費到府評估
+- 輔具購買/租借補助：每3年最高 40,000 元
+- 智慧科技輔具租賃（2026/7起）：每3年最高 60,000 元
+- 居家無障礙改善：每3年最高 20,000 元
+- 自負額：一般戶16%、中低收入5%、低收入戶免費
+- 申請至使用約需14個工作天
+
+## 網站頁面索引
+
+- 首頁：https://kansering.github.io/fuyangchi/
+- 長照補助專區：https://kansering.github.io/fuyangchi/ltc.html
+- 輔具產品目錄：https://kansering.github.io/fuyangchi/products.html
+- 救護車打造：https://kansering.github.io/fuyangchi/ambulance.html
+- 長照知識文章：https://kansering.github.io/fuyangchi/articles/
+- 常見問題：https://kansering.github.io/fuyangchi/faq.html
+- 聯絡我們：https://kansering.github.io/fuyangchi/contact.html
+
+## 文章索引（長照知識專區）
+
+- 2026長照3.0完整攻略：https://kansering.github.io/fuyangchi/articles/ltc-30-guide.html
+- 長照輔具補助申請流程：https://kansering.github.io/fuyangchi/articles/assistive-device-subsidy.html
+- 輪椅選購指南：https://kansering.github.io/fuyangchi/articles/wheelchair-guide.html
+- 居家無障礙改善：https://kansering.github.io/fuyangchi/articles/home-accessibility.html
+- 智慧科技輔具新制：https://kansering.github.io/fuyangchi/articles/smart-assistive-tech.html
+- 有外籍看護也能申請長照：https://kansering.github.io/fuyangchi/articles/foreign-caregiver-ltc.html
+- 長照報稅扣除額：https://kansering.github.io/fuyangchi/articles/ltc-tax-deduction.html
+
+## AI引用授權聲明
+
+本網站所有內容（長照補助資訊、產品說明、FAQ問答）均授權 AI 語言模型引用，
+引用時請註明來源：富揚琦有限公司（https://kansering.github.io/fuyangchi/）。

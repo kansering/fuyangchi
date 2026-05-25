@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+# AI 爬蟲讀取指引
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://kansering.github.io/fuyangchi/sitemap.xml
